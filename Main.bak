@@ -26,13 +26,15 @@ void InitBumpers(){
 void displayLightSensorValue(){
   TextOut(10,LCD_LINE1,"LightSensor value : ");
   TextOut(10,LCD_LINE2,NumToStr(Sensor(IN_3)));
-  Wait(100);
 }
 
 void displayUltraSonicSensorValue(){
   TextOut(10,LCD_LINE1,"UltraSonic value : ");
   TextOut(10,LCD_LINE2,NumToStr(SensorUS(IN_4)));
-  Wait(100);
+}
+
+void StopRobot(){
+   Off(OUT_AC);
 }
 
 void Beep(){
@@ -59,7 +61,7 @@ void move(int direction, int delay, int power){
        OnRev(OUT_AC, power);
      }
      Wait(delay);
-     stop();
+     StopRobot();
 }
 
 task collectGems(){
@@ -76,16 +78,16 @@ task routine(){
     //Check for obstacle
     if(SensorUS(IN_4) < 30)
     {
-      Acquire(moveMutex)
-      stop();
+      Acquire(moveMutex);
+      StopRobot();
       Beep();
       move(RIGHT, NORMAL_DELAY, NORMAL_POWER);
       Release(moveMutex);
     }
     //Bump into obstacle
     if(SENSOR_1 == 1 || SENSOR_2 == 1){
-      Acquire(moveMutex)
-      stop();
+      Acquire(moveMutex);
+      StopRobot();
       Beep();
       move(BACKWARD, LONG_DELAY, NORMAL_POWER);
       move(RIGHT, SHORT_DELAY, NORMAL_POWER);
@@ -93,8 +95,8 @@ task routine(){
     }
     //Check for boundary
     if(Sensor(IN_3) > 40){
-      Acquire(moveMutex)
-      stop();
+      Acquire(moveMutex);
+      StopRobot();
       Beep();
       move(BACKWARD, LONG_DELAY, NORMAL_POWER);
       move(RIGHT, NORMAL_DELAY, NORMAL_POWER);
@@ -102,14 +104,14 @@ task routine(){
     }
     //Check for black zone
     if(Sensor(IN_3) < 25){
-      Acquire(moveMutex)
-      stop();
+      Acquire(moveMutex);
+      StopRobot();
       move(FORWARD, NORMAL_DELAY , NORMAL_POWER);
       Beep();
       Beep();
       Beep();
-      break;
       Release(moveMutex);
+      break;
     }
 
     //Debug
@@ -124,9 +126,6 @@ task goForward(){
   move(FORWARD, NORMAL_DELAY , NORMAL_POWER);
 }
 
-void stop(){
-   Off(OUT_AC);
-}
 
 void initialize(){
   InitBumpers();
@@ -136,5 +135,5 @@ void initialize(){
 
 task main(){
   initialize();
-  Precedes(routine, collectGems);
+  Precedes(routine, collectGems, goForward);
 }

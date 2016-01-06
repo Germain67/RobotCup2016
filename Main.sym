@@ -1,131 +1,132 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0SetSensorLight_inline_InitLightSensor	6	1	0	4	2
-1	__D0routine	6	1	4	4	26
-2	__DU0SetSensorLight_inline_InitLightSensor	5	1	8	4	5
-3	__DU0SetSensorLowspeed_inline_InitUltraSonicSensor	5	1	12	4	5
-4	__D0SetSensorLowspeed_inline_InitUltraSonicSensor	6	1	16	4	2
-5	__D0move	6	1	20	4	28
+0	__D0routine	6	1	0	4	26
+1	__D0move	6	1	4	4	28
+2	__D0SetSensorLight_inline_InitLightSensor	6	1	8	4	2
+3	__D0SetSensorLowspeed_inline_InitUltraSonicSensor	6	1	12	4	2
+4	__DU0SetSensorLight_inline_InitLightSensor	5	1	16	4	5
+5	__D0goForward	6	1	20	4	4
 6	__SPTArgsMutex	9	0	24	4	2
 7	__RLSBmutex3	9	0	28	4	2
 8	__D0Beep	6	1	32	4	3
 9	__D0displayLightSensorValue	6	1	36	4	4
 10	__D0collectGems	6	1	40	4	8
-11	moveMutex	9	0	44	4	8
-12	__signed_stack_001routine	6	1	48	4	10
-13	__Wait_7qG2_ms_7qG2_000_inline_Beep	5	1	52	4	2
-14	__Wait_7qG2_ms_7qG2_000_inline_collectGems	5	1	56	4	4
-15	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	60	4	2
-16	__signed_stack_001move	6	1	64	4	8
-17	__signed_stack_002Beep	6	1	68	4	2
-18	__signed_stack_001Beep	6	1	72	4	2
-19	__signed_stack_003Beep	6	1	76	4	2
-20	__signed_stack_002displayLightSensorValue	6	1	80	4	4
-21	__signed_stack_001displayLightSensorValue	6	1	84	4	4
-22	__CLSWMutex3	9	0	88	4	2
-23	__CLSRMutex3	9	0	92	4	2
-24	__OnRevMutex	9	0	96	4	8
-25	__ResetSensorMutex	9	0	100	4	8
-26	__CLSCSMutex3	9	0	104	4	2
-27	__TextOutMutex	9	0	108	4	4
-28	__move_7qG2_direction_7qG2_000	4	1	112	2	10
-29	__move_7qG2_power_7qG2_000	4	1	114	2	12
-30	__move_7qG2_delay_7qG2_000	4	1	116	2	7
-31	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	118	1	2
-32	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	119	1	2
-33	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	120	1	2
-34	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	121	1	2
-35	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	122	1	2
-36	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	123	1	2
-37	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	124	1	2
-38	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	125	1	2
-39	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor	1	1	126	1	2
-40	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor	1	1	127	1	4
-41	__InitUltraSonicSensor_return	1	1	128	1	3
-42	__move_return	1	1	129	1	8
-43	__Beep_return	1	1	130	1	8
-44	__constVal63	2	0	131	1	9
-45	____initialize_global_data_return	1	1	132	1	3
-46	__initialize_return	1	1	133	1	3
-47	__OnRev_Tmp	2	1	134	1	8
-48	__SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers	1	1	135	1	8
-49	__InitBumpers_return	1	1	136	1	3
-50	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	137	1	2
-51	__constVal96	2	0	138	1	9
-52	__StopRobot_return	1	1	139	1	7
-53	__displayLightSensorValue_return	1	1	140	1	3
-54	__RLSBytesCount3	1	1	141	1	7
-55	__RLSBIterations3	1	1	142	1	4
-56	__ResetSensorTmp	1	1	143	1	2
-57	____ResetSensorSubroutine_return	1	1	144	1	6
-58	__constVal2	2	0	145	1	5
-59	__LSWriteOptions3	1	1	146	1	1
-60	__RLSBResult3	2	1	147	1	7
-61	____ReadLSBytes3_return	1	1	148	1	3
-62	__ResetSensorPort	1	1	149	1	6
-63	__SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor	1	1	150	1	4
-64	__InitLightSensor_return	1	1	151	1	3
-65	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	152	1	2
-66	__SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor	1	1	153	1	2
-67	__constVal0	2	1	154	1	32
-68	__constVal3	2	0	155	1	10
-69	__constVal32	2	0	156	1	29
-70	__constVal1	2	0	157	1	9
-71	__SPTArgs	8	0	5	8	6
-72	__SPTArgs.Result	2	1	160	1	6
-73	__SPTArgs.Frequency	3	1	162	2	6
-74	__SPTArgs.Duration	3	1	164	2	6
-75	__SPTArgs.Loop	1	1	166	1	6
-76	__SPTArgs.Volume	1	1	167	1	6
-77	__TextOutArgs	8	0	4	16	12
-78	__TextOutArgs.Result	2	1	168	1	12
-79	__TextOutArgs.Location	8	0	2	4	12
-80	__TextOutArgs.Location.X	4	1	172	2	12
-81	__TextOutArgs.Location.Y	4	1	174	2	12
-82	__TextOutArgs.Text	7	0	176	4	12
-83	__TextOutArgs.Text.Text_type	1	0	0	1	0
-84	__TextOutArgs.Options	5	1	180	4	12
-85	__CLSWArgs3	8	0	4	12	5
-86	__CLSWArgs3.Result	2	1	184	1	5
-87	__CLSWArgs3.Port	1	1	185	1	5
-88	__CLSWArgs3.Buffer	7	0	186	4	5
-89	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-90	__CLSWArgs3.ReturnLen	1	1	188	1	5
-91	__CLSCSArgs3	8	0	3	4	4
-92	__CLSCSArgs3.Result	2	1	192	1	4
-93	__CLSCSArgs3.Port	1	1	193	1	4
-94	__CLSCSArgs3.BytesReady	1	1	194	1	4
-95	__CLSRArgs3	8	0	4	12	5
-96	__CLSRArgs3.Result	2	1	196	1	5
-97	__CLSRArgs3.Port	1	1	197	1	5
-98	__CLSRArgs3.Buffer	7	0	198	4	5
-99	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-100	__CLSRArgs3.BufferLen	1	1	200	1	5
-101	__RLSLastGoodRead3	7	0	202	4	2
-102	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-103	__OUT_AC	7	0	204	4	3
-104	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-105	__constStr0009	7	0	206	4	1
-106	__constStr0009.__constStr0009_type	1	1	0	1	0
-107	__strretvaldisplayLightSensorValue	7	0	208	4	2
-108	__strretvaldisplayLightSensorValue.__strretvaldisplayLightSensorValue_type	1	0	0	1	0
-109	__strbufdisplayLightSensorValue	7	0	210	4	4
-110	__strbufdisplayLightSensorValue.__strbufdisplayLightSensorValue_type	1	0	0	1	0
-111	__RLSReadBuf3	7	0	212	4	8
-112	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-113	__RLSBbufLSWrite1	7	0	214	4	1
-114	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+11	__DU0SetSensorLowspeed_inline_InitUltraSonicSensor	5	1	44	4	5
+12	moveMutex	9	0	48	4	10
+13	__signed_stack_001routine	6	1	52	4	10
+14	__Wait_7qG2_ms_7qG2_000_inline_Beep	5	1	56	4	2
+15	__Wait_7qG2_ms_7qG2_000_inline_collectGems	5	1	60	4	4
+16	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	64	4	2
+17	__signed_stack_001move	6	1	68	4	8
+18	__signed_stack_002Beep	6	1	72	4	2
+19	__signed_stack_001Beep	6	1	76	4	2
+20	__signed_stack_003Beep	6	1	80	4	2
+21	__signed_stack_002displayLightSensorValue	6	1	84	4	4
+22	__signed_stack_001displayLightSensorValue	6	1	88	4	4
+23	__CLSWMutex3	9	0	92	4	2
+24	__CLSRMutex3	9	0	96	4	2
+25	__OnRevMutex	9	0	100	4	8
+26	__ResetSensorMutex	9	0	104	4	8
+27	__CLSCSMutex3	9	0	108	4	2
+28	__TextOutMutex	9	0	112	4	4
+29	__move_7qG2_direction_7qG2_000	4	1	116	2	11
+30	__move_7qG2_power_7qG2_000	4	1	118	2	13
+31	__move_7qG2_delay_7qG2_000	4	1	120	2	8
+32	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	122	1	2
+33	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	123	1	2
+34	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	124	1	2
+35	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	125	1	2
+36	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	126	1	2
+37	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	127	1	2
+38	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	128	1	2
+39	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	129	1	2
+40	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor	1	1	130	1	2
+41	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor	1	1	131	1	4
+42	__InitUltraSonicSensor_return	1	1	132	1	3
+43	__move_return	1	1	133	1	9
+44	__Beep_return	1	1	134	1	8
+45	__constVal63	2	0	135	1	9
+46	____initialize_global_data_return	1	1	136	1	3
+47	__initialize_return	1	1	137	1	3
+48	__OnRev_Tmp	2	1	138	1	8
+49	__SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers	1	1	139	1	8
+50	__InitBumpers_return	1	1	140	1	3
+51	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	141	1	2
+52	__constVal96	2	0	142	1	9
+53	__StopRobot_return	1	1	143	1	7
+54	__displayLightSensorValue_return	1	1	144	1	3
+55	__LSWriteOptions3	1	1	145	1	1
+56	__constVal2	2	0	146	1	5
+57	__ResetSensorTmp	1	1	147	1	2
+58	____ResetSensorSubroutine_return	1	1	148	1	6
+59	__RLSBResult3	2	1	149	1	7
+60	____ReadLSBytes3_return	1	1	150	1	3
+61	__RLSBIterations3	1	1	151	1	4
+62	__RLSBytesCount3	1	1	152	1	7
+63	__ResetSensorPort	1	1	153	1	6
+64	__constVal1	2	0	154	1	9
+65	__SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor	1	1	155	1	4
+66	__constVal32	2	0	156	1	29
+67	__InitLightSensor_return	1	1	157	1	3
+68	__constVal0	2	1	158	1	32
+69	__constVal3	2	0	159	1	10
+70	__SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor	1	1	160	1	2
+71	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	161	1	2
+72	__SPTArgs	8	0	5	8	6
+73	__SPTArgs.Result	2	1	164	1	6
+74	__SPTArgs.Frequency	3	1	166	2	6
+75	__SPTArgs.Duration	3	1	168	2	6
+76	__SPTArgs.Loop	1	1	170	1	6
+77	__SPTArgs.Volume	1	1	171	1	6
+78	__TextOutArgs	8	0	4	16	12
+79	__TextOutArgs.Result	2	1	172	1	12
+80	__TextOutArgs.Location	8	0	2	4	12
+81	__TextOutArgs.Location.X	4	1	176	2	12
+82	__TextOutArgs.Location.Y	4	1	178	2	12
+83	__TextOutArgs.Text	7	0	180	4	12
+84	__TextOutArgs.Text.Text_type	1	0	0	1	0
+85	__TextOutArgs.Options	5	1	184	4	12
+86	__CLSWArgs3	8	0	4	12	5
+87	__CLSWArgs3.Result	2	1	188	1	5
+88	__CLSWArgs3.Port	1	1	189	1	5
+89	__CLSWArgs3.Buffer	7	0	190	4	5
+90	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+91	__CLSWArgs3.ReturnLen	1	1	192	1	5
+92	__CLSRArgs3	8	0	4	12	5
+93	__CLSRArgs3.Result	2	1	196	1	5
+94	__CLSRArgs3.Port	1	1	197	1	5
+95	__CLSRArgs3.Buffer	7	0	198	4	5
+96	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+97	__CLSRArgs3.BufferLen	1	1	200	1	5
+98	__CLSCSArgs3	8	0	3	4	4
+99	__CLSCSArgs3.Result	2	1	204	1	4
+100	__CLSCSArgs3.Port	1	1	205	1	4
+101	__CLSCSArgs3.BytesReady	1	1	206	1	4
+102	__RLSLastGoodRead3	7	0	208	4	2
+103	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+104	__OUT_AC	7	0	210	4	3
+105	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+106	__strbufdisplayLightSensorValue	7	0	212	4	4
+107	__strbufdisplayLightSensorValue.__strbufdisplayLightSensorValue_type	1	0	0	1	0
+108	__RLSBbufLSWrite1	7	0	214	4	1
+109	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+110	__strretvaldisplayLightSensorValue	7	0	216	4	2
+111	__strretvaldisplayLightSensorValue.__strretvaldisplayLightSensorValue_type	1	0	0	1	0
+112	__constStr0009	7	0	218	4	1
+113	__constStr0009.__constStr0009_type	1	1	0	1	0
+114	__RLSReadBuf3	7	0	220	4	8
+115	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	136	0	#line 136 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	137	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	136	2	#line 136 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	137	2	#line 137 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	138	2		subcall initialize, __initialize_return
-0	137	4	#line 137 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	138	4	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	138	4	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	139	4		exit 0, 1
+0	138	0	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	139	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	138	2	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	139	2	#line 139 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	140	2		subcall initialize, __initialize_return
+0	139	4	#line 139 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	140	4	#line 140 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	140	4	#line 140 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+0	141	4		exit 0, 2
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -746,10 +747,10 @@ Clump	Line	PC	Source
 11	113	183		subcall Beep, __Beep_return
 11	112	185	#line 112 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
 11	113	185	#line 113 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	114	185		jmp __ASM_Label_684
-11	113	187	#line 113 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	114	187	#line 114 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	115	187		release moveMutex
+11	114	185		release moveMutex
+11	113	186	#line 113 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+11	114	186	#line 114 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+11	115	186		jmp __ASM_Label_684
 11	114	188	#line 114 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
 11	117	188	#line 117 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
 11	118	188	#line 118 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
@@ -759,19 +760,47 @@ Clump	Line	PC	Source
 11	122	190		jmp __ASM_Label_683
 11	121	192	#line 121 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
 11	122	192		exit -1, -1
-12	131	0	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	132	0		subcall InitBumpers, __InitBumpers_return
-12	131	2	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	132	2	#line 132 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	133	2		subcall InitUltraSonicSensor, __InitUltraSonicSensor_return
-12	132	4	#line 132 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	133	4	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	134	4		subcall InitLightSensor, __InitLightSensor_return
-12	133	6	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	135	6	#line 135 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	136	6		subret __initialize_return
-13	141	0	#line 141 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	142	0		subret ____initialize_global_data_return
+12	123	0	#line 123 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	124	0		set __D0goForward, 1
+12	124	3	#line 124 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	125	3		tst 5, __D0goForward, __D0goForward
+12	124	6	#line 124 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	125	6		brtst 4, __ASM_Label_737, __D0goForward
+12	125	9	#line 125 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	126	9		acquire moveMutex
+12	125	10	#line 125 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	126	10	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	127	10		release moveMutex
+12	126	11	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	126	11	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	127	11		set __move_7qG2_direction_7qG2_000, 2
+12	126	14	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	126	14	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	127	14		set __move_7qG2_delay_7qG2_000, 1000
+12	126	17	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	126	17	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	127	17		set __move_7qG2_power_7qG2_000, 70
+12	126	20	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	127	20	#line 127 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	128	20		subcall move, __move_return
+12	127	22	#line 127 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	131	22	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	132	22		jmp __ASM_Label_736
+12	131	24	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+12	132	24		exit -1, -1
+13	133	0	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	134	0		subcall InitBumpers, __InitBumpers_return
+13	133	2	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	134	2	#line 134 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	135	2		subcall InitUltraSonicSensor, __InitUltraSonicSensor_return
+13	134	4	#line 134 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	135	4	#line 135 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	136	4		subcall InitLightSensor, __InitLightSensor_return
+13	135	6	#line 135 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	137	6	#line 137 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+13	138	6		subret __initialize_return
+14	143	0	#line 143 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+14	144	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
@@ -786,5 +815,6 @@ Clump	Name	Offset	File
 9	move	357	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
 10	collectGems	584	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
 11	routine	665	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-12	initialize	860	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-13	__initialize_global_data	868	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
+12	goForward	860	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
+13	initialize	887	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
+14	__initialize_global_data	895	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
