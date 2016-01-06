@@ -1,128 +1,129 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0routine	6	1	0	4	26
-1	__D0randomDirection	6	1	4	4	10
+1	__D0randomDirection	6	1	4	4	9
 2	__D0playPacmanBeginning	6	1	8	4	3
-3	__D0SetSensorLowspeed_inline_initSensors	6	1	12	4	2
-4	__DU0SetSensorLight_inline_initSensors	5	1	16	4	5
-5	__D0SetSensorLight_inline_initSensors	6	1	20	4	2
-6	__D0move	6	1	24	4	28
+3	__D0SetSensorLight_inline_initSensors	6	1	12	4	2
+4	__DU0SetSensorLowspeed_inline_initSensors	5	1	16	4	5
+5	__D0SetSensorLowspeed_inline_initSensors	6	1	20	4	2
+6	__DU0SetSensorLight_inline_initSensors	5	1	24	4	5
 7	__SPFArgsMutex	9	0	28	4	2
 8	__SPTArgsMutex	9	0	32	4	2
 9	__constVal32768	6	0	36	4	1
-10	__D0goForward	6	1	40	4	4
-11	__D0collectGems	6	1	44	4	8
-12	__D0Beep	6	1	48	4	3
-13	__DU0SetSensorLowspeed_inline_initSensors	5	1	52	4	5
-14	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	56	4	2
-15	__Wait_7qG2_ms_7qG2_000_inline_Beep	5	1	60	4	2
-16	moveMutex	9	0	64	4	10
-17	__Wait_7qG2_ms_7qG2_000_inline_playPacmanBeginning	5	1	68	4	2
-18	__Wait_7qG2_ms_7qG2_000_inline_collectGems	5	1	72	4	4
-19	__constVal65536	6	0	76	4	1
-20	__signed_stack_001routine	6	1	80	4	10
-21	__signed_stack_003Beep	6	1	84	4	2
-22	__signed_stack_002Beep	6	1	88	4	2
-23	__signed_stack_001Beep	6	1	92	4	2
-24	__signed_stack_001randomDirection	6	1	96	4	2
-25	__signed_stack_001playPacmanBeginning	6	1	100	4	2
-26	__signed_stack_001move	6	1	104	4	8
-27	__CLSRMutex3	9	0	108	4	2
-28	__CLSWMutex3	9	0	112	4	2
-29	__CLSCSMutex3	9	0	116	4	2
-30	__OnRevMutex	9	0	120	4	8
-31	__RandomTmp	5	1	124	4	6
+10	__D0Beep	6	1	40	4	3
+11	__D0move	6	1	44	4	28
+12	__D0goForward	6	1	48	4	4
+13	__D0collectGems	6	1	52	4	8
+14	__Wait_7qG2_ms_7qG2_000_inline_Beep	5	1	56	4	2
+15	moveMutex	9	0	60	4	12
+16	__signed_stack_001routine	6	1	64	4	10
+17	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	68	4	2
+18	__Wait_7qG2_ms_7qG2_000_inline_playPacmanBeginning	5	1	72	4	2
+19	__Wait_7qG2_ms_7qG2_000_inline_collectGems	5	1	76	4	4
+20	__constVal65536	6	0	80	4	1
+21	__signed_stack_002Beep	6	1	84	4	2
+22	__signed_stack_001Beep	6	1	88	4	2
+23	__D0StopAllTasks_inline_routine	6	1	92	4	2
+24	__signed_stack_003Beep	6	1	96	4	2
+25	__signed_stack_001randomDirection	6	1	100	4	2
+26	__signed_stack_001playPacmanBeginning	6	1	104	4	2
+27	__signed_stack_001move	6	1	108	4	8
+28	__RandomTmp	5	1	112	4	6
+29	__CLSWMutex3	9	0	116	4	2
+30	__CLSCSMutex3	9	0	120	4	2
+31	__OnRevMutex	9	0	124	4	8
 32	__RLSBmutex3	9	0	128	4	2
-33	__move_7qG2_power_7qG2_000	4	1	132	2	12
-34	__randomDirection_7qG2_r_7qG2_000	4	1	134	2	2
-35	__move_7qG2_direction_7qG2_000	4	1	136	2	10
-36	__move_7qG2_delay_7qG2_000	4	1	138	2	7
-37	__SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors	1	1	140	1	8
-38	__initSensors_return	1	1	141	1	3
-39	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	142	1	4
-40	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	143	1	2
-41	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	144	1	2
-42	__constVal63	2	0	145	1	13
-43	__constVal96	2	0	146	1	13
-44	__constVal32	2	0	147	1	41
-45	__OnRev_Tmp	2	1	148	1	8
-46	__randomDirection_return	1	1	149	1	6
-47	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	150	1	2
-48	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	151	1	2
-49	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	152	1	2
-50	____initialize_global_data_return	1	1	153	1	3
-51	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	154	1	2
-52	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	155	1	2
-53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	156	1	2
-54	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	157	1	2
-55	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors	1	1	158	1	2
-56	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors	1	1	159	1	4
-57	__move_return	1	1	160	1	8
-58	__ResetSensorTmp	1	1	161	1	2
-59	____ResetSensorSubroutine_return	1	1	162	1	6
-60	__constVal3	2	0	163	1	14
-61	__ResetSensorPort	1	1	164	1	6
-62	__RLSBytesCount3	1	1	165	1	7
-63	__constVal2	2	0	166	1	4
-64	____ReadLSBytes3_return	1	1	167	1	3
-65	__RLSBResult3	2	1	168	1	7
-66	__LSWriteOptions3	1	1	169	1	1
-67	__constVal1	2	0	170	1	9
-68	__RLSBIterations3	1	1	171	1	4
-69	__constVal0	2	1	172	1	48
-70	__CLSWArgs3	8	0	4	12	5
-71	__CLSWArgs3.Result	2	1	176	1	5
-72	__CLSWArgs3.Port	1	1	177	1	5
-73	__CLSWArgs3.Buffer	7	0	178	4	5
-74	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-75	__CLSWArgs3.ReturnLen	1	1	180	1	5
-76	__CLSRArgs3	8	0	4	12	5
-77	__CLSRArgs3.Result	2	1	184	1	5
-78	__CLSRArgs3.Port	1	1	185	1	5
-79	__CLSRArgs3.Buffer	7	0	186	4	5
-80	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-81	__CLSRArgs3.BufferLen	1	1	188	1	5
-82	__SPFArgs	8	0	4	12	5
-83	__SPFArgs.Result	2	1	192	1	5
-84	__SPFArgs.Filename	7	0	194	4	5
-85	__SPFArgs.Filename.Filename_type	1	0	0	1	0
-86	__SPFArgs.Loop	1	1	196	1	5
-87	__SPFArgs.Volume	1	1	197	1	5
-88	__CLSCSArgs3	8	0	3	4	4
-89	__CLSCSArgs3.Result	2	1	200	1	4
-90	__CLSCSArgs3.Port	1	1	201	1	4
-91	__CLSCSArgs3.BytesReady	1	1	202	1	4
-92	__RandomArgs	8	0	1	4	2
-93	__RandomArgs.Result	4	1	204	2	2
-94	__SPTArgs	8	0	5	8	6
-95	__SPTArgs.Result	2	1	208	1	6
-96	__SPTArgs.Frequency	3	1	210	2	6
-97	__SPTArgs.Duration	3	1	212	2	6
-98	__SPTArgs.Loop	1	1	214	1	6
-99	__SPTArgs.Volume	1	1	215	1	6
-100	__RLSReadBuf3	7	0	216	4	8
-101	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-102	__strbufplayPacmanBeginning	7	0	218	4	2
-103	__strbufplayPacmanBeginning.__strbufplayPacmanBeginning_type	1	0	0	1	0
-104	__RLSBbufLSWrite1	7	0	220	4	1
-105	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-106	__constStr0011	7	0	222	4	1
-107	__constStr0011.__constStr0011_type	1	1	0	1	0
-108	__RLSLastGoodRead3	7	0	224	4	2
-109	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-110	__OUT_AC	7	0	226	4	7
-111	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+33	__CLSRMutex3	9	0	132	4	2
+34	__move_7qG2_power_7qG2_000	4	1	136	2	14
+35	__randomDirection_7qG2_r_7qG2_000	4	1	138	2	2
+36	__move_7qG2_direction_7qG2_000	4	1	140	2	12
+37	__move_7qG2_delay_7qG2_000	4	1	142	2	9
+38	__SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors	1	1	144	1	8
+39	__initSensors_return	1	1	145	1	3
+40	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	146	1	4
+41	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	147	1	2
+42	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	148	1	2
+43	__constVal63	2	0	149	1	14
+44	__constVal96	2	0	150	1	14
+45	__constVal32	2	0	151	1	44
+46	__OnRev_Tmp	2	1	152	1	8
+47	__randomDirection_return	1	1	153	1	5
+48	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	154	1	2
+49	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	155	1	2
+50	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	156	1	2
+51	____initialize_global_data_return	1	1	157	1	3
+52	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	158	1	2
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	159	1	2
+54	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	160	1	2
+55	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	161	1	2
+56	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors	1	1	162	1	2
+57	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors	1	1	163	1	4
+58	__move_return	1	1	164	1	10
+59	__ResetSensorTmp	1	1	165	1	2
+60	____ResetSensorSubroutine_return	1	1	166	1	6
+61	__constVal3	2	0	167	1	15
+62	__ResetSensorPort	1	1	168	1	6
+63	__RLSBytesCount3	1	1	169	1	7
+64	__constVal2	2	0	170	1	4
+65	____ReadLSBytes3_return	1	1	171	1	3
+66	__RLSBResult3	2	1	172	1	7
+67	__LSWriteOptions3	1	1	173	1	1
+68	__constVal1	2	0	174	1	9
+69	__RLSBIterations3	1	1	175	1	4
+70	__constVal0	2	1	176	1	52
+71	__CLSWArgs3	8	0	4	12	5
+72	__CLSWArgs3.Result	2	1	180	1	5
+73	__CLSWArgs3.Port	1	1	181	1	5
+74	__CLSWArgs3.Buffer	7	0	182	4	5
+75	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+76	__CLSWArgs3.ReturnLen	1	1	184	1	5
+77	__CLSRArgs3	8	0	4	12	5
+78	__CLSRArgs3.Result	2	1	188	1	5
+79	__CLSRArgs3.Port	1	1	189	1	5
+80	__CLSRArgs3.Buffer	7	0	190	4	5
+81	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+82	__CLSRArgs3.BufferLen	1	1	192	1	5
+83	__SPFArgs	8	0	4	12	5
+84	__SPFArgs.Result	2	1	196	1	5
+85	__SPFArgs.Filename	7	0	198	4	5
+86	__SPFArgs.Filename.Filename_type	1	0	0	1	0
+87	__SPFArgs.Loop	1	1	200	1	5
+88	__SPFArgs.Volume	1	1	201	1	5
+89	__CLSCSArgs3	8	0	3	4	4
+90	__CLSCSArgs3.Result	2	1	204	1	4
+91	__CLSCSArgs3.Port	1	1	205	1	4
+92	__CLSCSArgs3.BytesReady	1	1	206	1	4
+93	__RandomArgs	8	0	1	4	2
+94	__RandomArgs.Result	4	1	208	2	2
+95	__SPTArgs	8	0	5	8	6
+96	__SPTArgs.Result	2	1	212	1	6
+97	__SPTArgs.Frequency	3	1	214	2	6
+98	__SPTArgs.Duration	3	1	216	2	6
+99	__SPTArgs.Loop	1	1	218	1	6
+100	__SPTArgs.Volume	1	1	219	1	6
+101	__RLSReadBuf3	7	0	220	4	8
+102	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+103	__strbufplayPacmanBeginning	7	0	222	4	2
+104	__strbufplayPacmanBeginning.__strbufplayPacmanBeginning_type	1	0	0	1	0
+105	__RLSBbufLSWrite1	7	0	224	4	1
+106	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+107	__constStr0011	7	0	226	4	1
+108	__constStr0011.__constStr0011_type	1	1	0	1	0
+109	__RLSLastGoodRead3	7	0	228	4	2
+110	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+111	__OUT_AC	7	0	230	4	8
+112	__OUT_AC.__OUT_AC_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	154	0	#line 154 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	155	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	154	2	#line 154 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	155	2	#line 155 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	156	2		subcall initSensors, __initSensors_return
-0	155	4	#line 155 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	156	4	#line 156 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	156	4	#line 156 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-0	157	4		exit 0, 3
+0	163	0	#line 163 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	164	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	163	2	#line 163 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	164	2	#line 164 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	165	2		subcall initSensors, __initSensors_return
+0	164	4	#line 164 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	165	4	#line 165 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	165	4	#line 165 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	166	4		exit 0, 3
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -219,7 +220,7 @@ Clump	Line	PC	Source
 4	45	14	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	46	14	#pragma macro 7
 4	46	14		setout __constVal2, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	7279	37	#line 7279 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7357	37	#line 7357 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	45	37	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	45	37	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	46	37		mov __D0move, __move_7qG2_power_7qG2_000
@@ -229,7 +230,7 @@ Clump	Line	PC	Source
 4	47	40		neg __OnRev_Tmp, __D0move
 4	47	43		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 4	47	66		release __OnRevMutex
-4	7286	67	#line 7286 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7364	67	#line 7364 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	46	67	#line 46 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	47	67	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	48	67		jmp __ASM_Label_641
@@ -247,7 +248,7 @@ Clump	Line	PC	Source
 4	50	83	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	51	83	#pragma macro 7
 4	51	83		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	7310	106	#line 7310 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7388	106	#line 7388 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	50	106	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	50	106	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	51	106		mov __D0move, __move_7qG2_power_7qG2_000
@@ -257,7 +258,7 @@ Clump	Line	PC	Source
 4	52	109		neg __OnRev_Tmp, __D0move
 4	52	112		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 4	52	135		release __OnRevMutex
-4	7317	136	#line 7317 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7395	136	#line 7395 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	51	136	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	52	136	#line 52 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	53	136		jmp __ASM_Label_649
@@ -275,7 +276,7 @@ Clump	Line	PC	Source
 4	55	152	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	56	152	#pragma macro 7
 4	56	152		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	7341	175	#line 7341 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7419	175	#line 7419 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	55	175	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	56	175	#line 56 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	57	175		jmp __ASM_Label_655
@@ -296,7 +297,7 @@ Clump	Line	PC	Source
 4	60	192		neg __OnRev_Tmp, __D0move
 4	60	195		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 4	60	218		release __OnRevMutex
-4	7365	219	#line 7365 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7443	219	#line 7443 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	59	219	#line 59 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	60	219	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	60	219	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
@@ -312,7 +313,7 @@ Clump	Line	PC	Source
 4	62	223	#line 62 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	63	223	#pragma macro 7
 4	63	223		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	7390	246	#line 7390 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	7468	246	#line 7468 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	62	246	#line 62 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	64	246	#line 64 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 4	65	246		subret __move_return
@@ -325,7 +326,7 @@ Clump	Line	PC	Source
 5	67	10		mul __RandomTmp, __RandomTmp, __D0randomDirection
 5	67	14		div __RandomTmp, __RandomTmp, __constVal65536
 5	67	18		mov __randomDirection_7qG2_r_7qG2_000, __RandomTmp
-5	7404	20	#line 7404 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	7482	20	#line 7482 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 5	66	20	#line 66 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 5	66	20	#line 66 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 5	67	20		mov __signed_stack_001randomDirection, __randomDirection_7qG2_r_7qG2_000
@@ -362,7 +363,7 @@ Clump	Line	PC	Source
 6	81	12	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	82	12	#pragma macro 7
 6	82	12		setout __constVal1, 2, __D0collectGems, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	7453	35	#line 7453 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	7531	35	#line 7531 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	81	35	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	81	35	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	82	35		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 2000
@@ -379,7 +380,7 @@ Clump	Line	PC	Source
 6	84	44		neg __OnRev_Tmp, __D0collectGems
 6	84	47		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 6	84	70		release __OnRevMutex
-6	7470	71	#line 7470 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	7548	71	#line 7548 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	83	71	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	83	71	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 6	84	71		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 1000
@@ -416,7 +417,7 @@ Clump	Line	PC	Source
 7	94	26	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	95	26	#pragma macro 7
 7	95	26		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	7515	49	#line 7515 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	7593	49	#line 7593 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	94	49	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	94	49	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	95	49		set __move_7qG2_direction_7qG2_000, 2
@@ -427,246 +428,289 @@ Clump	Line	PC	Source
 7	94	55	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	95	55		set __move_7qG2_power_7qG2_000, 100
 7	94	58	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	96	58	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	97	58		subcall move, __move_return
-7	96	60	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	97	60	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	98	60		release moveMutex
-7	97	61	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	99	61	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	99	61	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	100	61		getin __signed_stack_001routine, __constVal2, 4
-7	99	65	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	99	65	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	100	65		set __D0routine, 45
-7	99	68	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	100	68		cmp 1, __D0routine, __signed_stack_001routine, __D0routine
-7	100	72	#line 100 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	101	72		brtst 4, __ASM_Label_702, __D0routine
-7	101	75	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	102	75		acquire moveMutex
-7	101	76	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	102	76	#line 102 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	76		start Beep
-7	102	78	#line 102 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	78	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	78	#pragma macro 7
-7	104	78		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	7558	101	#line 7558 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	101	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	101	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	101		subcall randomDirection, __randomDirection_return
-7	103	103	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	103		mov __move_7qG2_direction_7qG2_000, __D0randomDirection
-7	103	105	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	105	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	105		set __move_7qG2_delay_7qG2_000, 1500
+7	95	58	#line 95 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	96	58		subcall move, __move_return
+7	95	60	#line 95 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	8564	60	#line 8564 "NXCDefs.h"
+7	8565	60		set __D0StopAllTasks_inline_routine, 1
+7	8564	63	#line 8564 "NXCDefs.h"
+7	8565	63		stop __D0StopAllTasks_inline_routine
+7	8564	65	#line 8564 "NXCDefs.h"
+7	96	65	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	97	65	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	98	65		release moveMutex
+7	97	66	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	99	66	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	99	66	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	100	66		getin __signed_stack_001routine, __constVal2, 4
+7	99	70	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	99	70	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	100	70		set __D0routine, 45
+7	99	73	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	100	73		cmp 1, __D0routine, __signed_stack_001routine, __D0routine
+7	100	77	#line 100 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	101	77		brtst 4, __ASM_Label_702, __D0routine
+7	101	80	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	102	80		acquire moveMutex
+7	101	81	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	102	81	#line 102 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	81		start Beep
+7	102	83	#line 102 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	83	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	83	#pragma macro 7
+7	104	83		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7642	106	#line 7642 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	106	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	106	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	106		subcall randomDirection, __randomDirection_return
 7	103	108	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	103	108	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	108		set __move_7qG2_power_7qG2_000, 100
-7	103	111	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	104	111	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	105	111		subcall move, __move_return
-7	104	113	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	105	113	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	106	113		release moveMutex
-7	105	114	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	108	114	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	108	114	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	114		getin __signed_stack_001routine, __constVal0, 4
-7	108	118	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	108	118	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	118		set __D0routine, 1
-7	108	121	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	121		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
-7	108	125	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	125		brtst 5, __ASM_Label_709, __D0routine
-7	108	128	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	128		getin __signed_stack_001routine, __constVal1, 4
-7	108	132	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	108	132	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	132		set __D0routine, 1
-7	108	135	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	109	135		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
-7	109	139	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	110	139		brtst 4, __ASM_Label_712, __D0routine
-7	110	142	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	111	142		acquire moveMutex
-7	110	143	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	111	143	#line 111 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	112	143		start Beep
-7	111	145	#line 111 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	112	145	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	145	#pragma macro 7
-7	113	145		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	7618	168	#line 7618 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	108		mov __move_7qG2_direction_7qG2_000, __D0randomDirection
+7	103	110	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	110	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	110		set __move_7qG2_delay_7qG2_000, 1500
+7	103	113	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	103	113	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	113		set __move_7qG2_power_7qG2_000, 100
+7	103	116	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	104	116	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	105	116		subcall move, __move_return
+7	104	118	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	105	118	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	106	118		release moveMutex
+7	105	119	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	108	119	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	108	119	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	109	119		getin __signed_stack_001routine, __constVal0, 4
+7	108	123	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	108	123	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	109	123		set __D0routine, 1
+7	108	126	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	109	126		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+7	109	130	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	110	130		brtst 4, __ASM_Label_711, __D0routine
+7	110	133	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	111	133		acquire moveMutex
+7	110	134	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	111	134	#line 111 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	134		start Beep
+7	111	136	#line 111 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	136	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	136	#pragma macro 7
+7	113	136		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7689	159	#line 7689 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	159	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	159	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	159		set __move_7qG2_direction_7qG2_000, 3
+7	112	162	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	162	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	162		set __move_7qG2_delay_7qG2_000, 1000
+7	112	165	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	112	165	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	165		set __move_7qG2_power_7qG2_000, 100
 7	112	168	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	112	168	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	168		set __move_7qG2_direction_7qG2_000, 3
-7	112	171	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	112	171	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	171		set __move_7qG2_delay_7qG2_000, 1000
-7	112	174	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	112	174	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	174		set __move_7qG2_power_7qG2_000, 100
-7	112	177	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	177	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	177		subcall move, __move_return
+7	113	168	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	114	168		subcall move, __move_return
+7	113	170	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	170	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	114	170		set __move_7qG2_direction_7qG2_000, 1
+7	113	173	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	173	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	114	173		set __move_7qG2_delay_7qG2_000, 1500
+7	113	176	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	113	176	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	114	176		set __move_7qG2_power_7qG2_000, 100
 7	113	179	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	179	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	179		subcall randomDirection, __randomDirection_return
-7	113	181	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	181		mov __move_7qG2_direction_7qG2_000, __D0randomDirection
-7	113	183	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	183	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	183		set __move_7qG2_delay_7qG2_000, 1500
-7	113	186	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	113	186	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	186		set __move_7qG2_power_7qG2_000, 100
-7	113	189	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	114	189	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	115	189		subcall move, __move_return
-7	114	191	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	115	191	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	116	191		release moveMutex
-7	115	192	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	117	192	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	117	192	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	118	192	#pragma macro 26
-7	118	192		acquire __RLSBmutex3
-7	118	193		mov __RLSReadBuf3, __RLSBbufLSWrite1
-7	118	195		set __RLSBytesCount3, 1
-7	118	198		wait 15
-7	118	200		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-7	118	202		index __D0routine, __RLSReadBuf3, 65535
-7	118	206		release __RLSBmutex3
-7	7660	207	#line 7660 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	117	207	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	118	207		mov __signed_stack_001routine, __D0routine
-7	118	209	#line 118 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	119	209		set __D0routine, 40
-7	118	212	#line 118 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	119	212		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
-7	119	216	#line 119 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	120	216		brtst 4, __ASM_Label_727, __D0routine
-7	120	219	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	121	219		start Beep
-7	120	221	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	121	221	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	221		acquire moveMutex
+7	114	179	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	115	179		subcall move, __move_return
+7	114	181	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	115	181	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	116	181		release moveMutex
+7	115	182	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	117	182	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	117	182	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	118	182		getin __signed_stack_001routine, __constVal1, 4
+7	117	186	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	117	186	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	118	186		set __D0routine, 2
+7	117	189	#line 117 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	118	189		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+7	118	193	#line 118 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	119	193		brtst 4, __ASM_Label_726, __D0routine
+7	119	196	#line 119 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	120	196		acquire moveMutex
+7	119	197	#line 119 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	120	197	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	121	197		start Beep
+7	120	199	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	121	199	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	199	#pragma macro 7
+7	122	199		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7747	222	#line 7747 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 7	121	222	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	222	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	123	222	#pragma macro 7
-7	123	222		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	7680	245	#line 7680 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	245	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	245	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	123	245		set __move_7qG2_direction_7qG2_000, 1
-7	122	248	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	248	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	123	248		set __move_7qG2_delay_7qG2_000, 2000
-7	122	251	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	122	251	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	123	251		set __move_7qG2_power_7qG2_000, 100
-7	122	254	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	123	254	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	124	254		subcall move, __move_return
-7	123	256	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	124	256	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	125	256		release moveMutex
-7	124	257	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	127	257	#line 127 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	129	257	#line 129 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	130	257		jmp __ASM_Label_687
-7	129	259	#line 129 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-7	130	259		exit -1, -1
-8	130	0	#line 130 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	131	0		set __D0goForward, 1
-8	131	3	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	132	3		tst 5, __D0goForward, __D0goForward
-8	131	6	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	132	6		brtst 4, __ASM_Label_735, __D0goForward
-8	132	9	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	133	9		acquire moveMutex
-8	132	10	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	133	10	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	134	10		release moveMutex
-8	133	11	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	133	11	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	134	11		set __move_7qG2_direction_7qG2_000, 2
-8	133	14	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	133	14	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	134	14		set __move_7qG2_delay_7qG2_000, 1000
-8	133	17	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	133	17	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	134	17		set __move_7qG2_power_7qG2_000, 100
-8	133	20	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	134	20	#line 134 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	135	20		subcall move, __move_return
-8	134	22	#line 134 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	141	22	#line 141 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	142	22		jmp __ASM_Label_734
-8	141	24	#line 141 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-8	142	24		exit -1, -1
-9	142	0	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	143	0		strcat __strbufplayPacmanBeginning, __constStr0011
-9	142	4	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	143	4		set __signed_stack_001playPacmanBeginning, 7
-9	142	7	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	142	7	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	143	7		set __D0playPacmanBeginning, 0
-9	143	10	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	10		acquire __SPFArgsMutex
-9	143	11	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	11		mov __SPFArgs.Filename, __strbufplayPacmanBeginning
-9	143	13	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	13		mov __SPFArgs.Volume, __signed_stack_001playPacmanBeginning
-9	143	15	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	15		mov __SPFArgs.Loop, __D0playPacmanBeginning
-9	143	17	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	17		syscall 9, __SPFArgs
-9	143	20	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	20		mov __D0playPacmanBeginning, __SPFArgs.Result
-9	143	22	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	22		release __SPFArgsMutex
-9	143	23	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	143	23	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	144	23		set __Wait_7qG2_ms_7qG2_000_inline_playPacmanBeginning, 5000
-9	143	26	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	121	222	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	222		set __move_7qG2_direction_7qG2_000, 3
+7	121	225	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	121	225	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	225		set __move_7qG2_delay_7qG2_000, 1000
+7	121	228	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	121	228	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	228		set __move_7qG2_power_7qG2_000, 100
+7	121	231	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	231	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	123	231		subcall move, __move_return
+7	122	233	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	233	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	123	233		set __move_7qG2_direction_7qG2_000, 0
+7	122	236	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	236	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	123	236		set __move_7qG2_delay_7qG2_000, 1500
+7	122	239	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	122	239	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	123	239		set __move_7qG2_power_7qG2_000, 100
+7	122	242	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	123	242	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	124	242		subcall move, __move_return
+7	123	244	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	124	244	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	125	244		release moveMutex
+7	124	245	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	126	245	#line 126 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	126	245	#line 126 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	127	245	#pragma macro 26
+7	127	245		acquire __RLSBmutex3
+7	127	246		mov __RLSReadBuf3, __RLSBbufLSWrite1
+7	127	248		set __RLSBytesCount3, 1
+7	127	251		wait 15
+7	127	253		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+7	127	255		index __D0routine, __RLSReadBuf3, 65535
+7	127	259		release __RLSBmutex3
+7	7785	260	#line 7785 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	126	260	#line 126 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	127	260		mov __signed_stack_001routine, __D0routine
+7	127	262	#line 127 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	128	262		set __D0routine, 40
+7	127	265	#line 127 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	128	265		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
+7	128	269	#line 128 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	129	269		brtst 4, __ASM_Label_741, __D0routine
+7	129	272	#line 129 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	130	272		start Beep
+7	129	274	#line 129 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	130	274	#line 130 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	274		acquire moveMutex
+7	130	275	#line 130 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	275	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	132	275	#pragma macro 7
+7	132	275		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7805	298	#line 7805 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	298	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	298	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	132	298		set __move_7qG2_direction_7qG2_000, 1
+7	131	301	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	301	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	132	301		set __move_7qG2_delay_7qG2_000, 2000
+7	131	304	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	131	304	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	132	304		set __move_7qG2_power_7qG2_000, 100
+7	131	307	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	132	307	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	133	307		subcall move, __move_return
+7	132	309	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	133	309	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	134	309		release moveMutex
+7	133	310	#line 133 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	136	310	#line 136 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	138	310	#line 138 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	139	310		jmp __ASM_Label_687
+7	138	312	#line 138 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	139	312		exit -1, -1
+8	139	0	#line 139 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	140	0		set __D0goForward, 1
+8	140	3	#line 140 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	141	3		tst 5, __D0goForward, __D0goForward
+8	140	6	#line 140 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	141	6		brtst 4, __ASM_Label_749, __D0goForward
+8	141	9	#line 141 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	142	9		acquire moveMutex
+8	141	10	#line 141 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	142	10	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	143	10		release moveMutex
+8	142	11	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	142	11	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	143	11		set __move_7qG2_direction_7qG2_000, 2
+8	142	14	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	142	14	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	143	14		set __move_7qG2_delay_7qG2_000, 1000
+8	142	17	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	142	17	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	143	17		set __move_7qG2_power_7qG2_000, 100
+8	142	20	#line 142 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	143	20	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	144	20		subcall move, __move_return
+8	143	22	#line 143 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	150	22	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	151	22		jmp __ASM_Label_748
+8	150	24	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	151	24		exit -1, -1
+9	151	0	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	152	0		strcat __strbufplayPacmanBeginning, __constStr0011
+9	151	4	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	152	4		set __signed_stack_001playPacmanBeginning, 7
+9	151	7	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	151	7	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	152	7		set __D0playPacmanBeginning, 0
+9	152	10	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	10		acquire __SPFArgsMutex
+9	152	11	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	11		mov __SPFArgs.Filename, __strbufplayPacmanBeginning
+9	152	13	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	13		mov __SPFArgs.Volume, __signed_stack_001playPacmanBeginning
+9	152	15	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	15		mov __SPFArgs.Loop, __D0playPacmanBeginning
+9	152	17	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	17		syscall 9, __SPFArgs
+9	152	20	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	20		mov __D0playPacmanBeginning, __SPFArgs.Result
+9	152	22	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	22		release __SPFArgsMutex
+9	152	23	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	152	23	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	23		set __Wait_7qG2_ms_7qG2_000_inline_playPacmanBeginning, 5000
+9	152	26	#line 152 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 9	8551	26	#line 8551 "NXCDefs.h"
 9	8552	26		waitv __Wait_7qG2_ms_7qG2_000_inline_playPacmanBeginning
 9	8551	28	#line 8551 "NXCDefs.h"
-9	144	28	#line 144 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-9	145	28		exit -1, -1
-10	147	0	#line 147 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	148	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 0
-10	147	3	#line 147 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	153	28	#line 153 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	154	28		exit -1, -1
+10	156	0	#line 156 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	157	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 0
+10	156	3	#line 156 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 10	4302	3	#line 4302 "NXCDefs.h"
 10	4303	3	#pragma macro 6
 10	4303	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 0
 10	4303	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 1
 10	4303	11		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors
 10	4303	13		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-10	7793	15	#line 7793 "NXCDefs.h"
+10	7918	15	#line 7918 "NXCDefs.h"
 10	4302	15	#line 4302 "NXCDefs.h"
-10	148	15	#line 148 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	148	15	#line 148 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	149	15		set __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 1
-10	148	18	#line 148 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	157	15	#line 157 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	157	15	#line 157 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	158	15		set __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 1
+10	157	18	#line 157 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 10	4302	18	#line 4302 "NXCDefs.h"
 10	4303	18	#pragma macro 6
 10	4303	18		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 0
 10	4303	22		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors, 1
 10	4303	26		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_initSensors
 10	4303	28		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-10	7801	30	#line 7801 "NXCDefs.h"
+10	7926	30	#line 7926 "NXCDefs.h"
 10	4302	30	#line 4302 "NXCDefs.h"
-10	149	30	#line 149 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	149	30	#line 149 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	150	30		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 2
-10	149	33	#line 149 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	150	33	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	151	33		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+10	158	30	#line 158 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	158	30	#line 158 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	159	30		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 2
+10	158	33	#line 158 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	159	33	#line 159 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	160	33		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 10	4313	35	#line 4313 "NXCDefs.h"
 10	4314	35		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 10	4313	37	#line 4313 "NXCDefs.h"
@@ -706,15 +750,15 @@ Clump	Line	PC	Source
 10	4279	68	#pragma macro 4
 10	4279	68		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 10	4279	70		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-10	7891	72	#line 7891 "NXCDefs.h"
+10	8016	72	#line 8016 "NXCDefs.h"
 10	4278	72	#line 4278 "NXCDefs.h"
 10	4316	72	#line 4316 "NXCDefs.h"
-10	150	72	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	150	72	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	151	72		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors, 3
-10	150	75	#line 150 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	151	75	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	152	75		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors, __constVal1
+10	159	72	#line 159 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	159	72	#line 159 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	160	72		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors, 3
+10	159	75	#line 159 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	160	75	#line 160 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	161	75		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors, __constVal1
 10	4342	77	#line 4342 "NXCDefs.h"
 10	4343	77		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors
 10	4342	79	#line 4342 "NXCDefs.h"
@@ -754,14 +798,14 @@ Clump	Line	PC	Source
 10	4279	110	#pragma macro 4
 10	4279	110		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors
 10	4279	112		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-10	7982	114	#line 7982 "NXCDefs.h"
+10	8107	114	#line 8107 "NXCDefs.h"
 10	4278	114	#line 4278 "NXCDefs.h"
 10	4345	114	#line 4345 "NXCDefs.h"
-10	151	114	#line 151 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	153	114	#line 153 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-10	154	114		subret __initSensors_return
-11	159	0	#line 159 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
-11	160	0		subret ____initialize_global_data_return
+10	160	114	#line 160 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	162	114	#line 162 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	163	114		subret __initSensors_return
+11	168	0	#line 168 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	169	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Germain\AppData\Local\Temp\temp.nxc
@@ -772,7 +816,7 @@ Clump	Name	Offset	File
 5	randomDirection	388	C:\Users\Germain\AppData\Local\Temp\temp.nxc
 6	collectGems	434	C:\Users\Germain\AppData\Local\Temp\temp.nxc
 7	routine	515	C:\Users\Germain\AppData\Local\Temp\temp.nxc
-8	goForward	777	C:\Users\Germain\AppData\Local\Temp\temp.nxc
-9	playPacmanBeginning	804	C:\Users\Germain\AppData\Local\Temp\temp.nxc
-10	initSensors	835	C:\Users\Germain\AppData\Local\Temp\temp.nxc
-11	__initialize_global_data	951	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+8	goForward	830	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+9	playPacmanBeginning	857	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+10	initSensors	888	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+11	__initialize_global_data	1004	C:\Users\Germain\AppData\Local\Temp\temp.nxc

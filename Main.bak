@@ -11,7 +11,7 @@
 #define COLLECTOR_REV_SPEED 50
 
 #define WHITE 45
-#define BLACK 20
+#define BLACK 25
 
 #define WATCHING_DISTANCE 40
 
@@ -89,11 +89,11 @@ task routine(){
  while(true){
    //Check for black area
    if(Sensor(IN_3) < BLACK){
-      StartTask(Beep);
       Acquire(moveMutex);
+      StartTask(Beep);
       Off(OUT_AC);
       move(FORWARD, 500 , FORWARD_SPEED);
-      finishProgram();
+      StopAllTasks();
       Release(moveMutex);
    }
    //Check for white boundary
@@ -106,21 +106,30 @@ task routine(){
     }
 
     //Bump into obstacle
-    if(SENSOR_1 == 1 || SENSOR_2 == 1){
+    if(SENSOR_1 == 1){
       Acquire(moveMutex);
       StartTask(Beep);
-      Off(OUT_AC)
+      Off(OUT_AC);
       move(BACKWARD, 1000, BACKWARD_SPEED);
-      move(randomDirection(), 1500, TURNING_SPEED);
+      move(RIGHT, 1500, TURNING_SPEED);
+      Release(moveMutex);
+    }
+
+    if(SENSOR_2 == 2){
+      Acquire(moveMutex);
+      StartTask(Beep);
+      Off(OUT_AC);
+      move(BACKWARD, 1000, BACKWARD_SPEED);
+      move(LEFT, 1500, TURNING_SPEED);
       Release(moveMutex);
     }
     //Check for obstacle
     if(SensorUS(IN_4) < WATCHING_DISTANCE)
     {
-      StartTask(Beep);
       Acquire(moveMutex);
+      StartTask(Beep);
       Off(OUT_AC);
-      move(RIGHT, 2000, TURNING_SPEED);
+      move(randomDirection(), 2000, TURNING_SPEED);
       Release(moveMutex);
     }
 
