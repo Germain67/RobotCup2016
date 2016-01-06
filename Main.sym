@@ -1,6 +1,6 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0routine	6	1	0	4	26
+0	__D0routine	6	1	0	4	28
 1	__D0move	6	1	4	4	28
 2	__D0SetSensorLight_inline_InitLightSensor	6	1	8	4	2
 3	__D0SetSensorLowspeed_inline_InitUltraSonicSensor	6	1	12	4	2
@@ -118,15 +118,15 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 115	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	138	0	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	139	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	138	2	#line 138 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	139	2	#line 139 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	140	2		subcall initialize, __initialize_return
-0	139	4	#line 139 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	140	4	#line 140 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	140	4	#line 140 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-0	141	4		exit 0, 2
+0	135	0	#line 135 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	136	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	135	2	#line 135 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	136	2	#line 136 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	137	2		subcall initialize, __initialize_return
+0	136	4	#line 136 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	137	4	#line 137 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	137	4	#line 137 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	138	4		exit 0, 2
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -173,11 +173,11 @@ Clump	Line	PC	Source
 2	6414	78		mov __RLSReadBuf3, __RLSLastGoodRead3
 2	6416	80		arrsize __RLSBytesCount3, __RLSReadBuf3
 2	6418	83		subret ____ReadLSBytes3_return
-3	13	0	#line 13 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-3	14	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor, 2
-3	13	3	#line 13 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-3	14	3	#line 14 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-3	15	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor, __constVal1
+3	9	0	#line 9 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	10	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor, 2
+3	9	3	#line 9 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	10	3	#line 10 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	11	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor, __constVal1
 3	4313	5	#line 4313 "NXCDefs.h"
 3	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor
 3	4313	7	#line 4313 "NXCDefs.h"
@@ -223,14 +223,14 @@ Clump	Line	PC	Source
 3	7213	46	#line 7213 "NXCDefs.h"
 3	4278	46	#line 4278 "NXCDefs.h"
 3	4316	46	#line 4316 "NXCDefs.h"
-3	14	46	#line 14 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-3	16	46	#line 16 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-3	17	46		subret __InitLightSensor_return
-4	17	0	#line 17 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-4	18	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor, 3
-4	17	3	#line 17 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-4	18	3	#line 18 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-4	19	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor, __constVal1
+3	10	46	#line 10 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	12	46	#line 12 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	13	46		subret __InitLightSensor_return
+4	13	0	#line 13 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	14	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor, 3
+4	13	3	#line 13 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	14	3	#line 14 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	15	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor, __constVal1
 4	4342	5	#line 4342 "NXCDefs.h"
 4	4343	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor
 4	4342	7	#line 4342 "NXCDefs.h"
@@ -276,12 +276,12 @@ Clump	Line	PC	Source
 4	7309	46	#line 7309 "NXCDefs.h"
 4	4278	46	#line 4278 "NXCDefs.h"
 4	4345	46	#line 4345 "NXCDefs.h"
-4	18	46	#line 18 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-4	20	46	#line 20 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-4	21	46		subret __InitUltraSonicSensor_return
-5	21	0	#line 21 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-5	22	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
-5	21	3	#line 21 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+4	14	46	#line 14 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	16	46	#line 16 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	17	46		subret __InitUltraSonicSensor_return
+5	17	0	#line 17 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	18	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
+5	17	3	#line 17 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 5	4302	3	#line 4302 "NXCDefs.h"
 5	4303	3	#pragma macro 6
 5	4303	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
@@ -292,10 +292,10 @@ Clump	Line	PC	Source
 5	4303	16		release __ResetSensorMutex
 5	7327	17	#line 7327 "NXCDefs.h"
 5	4302	17	#line 4302 "NXCDefs.h"
-5	22	17	#line 22 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-5	22	17	#line 22 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-5	23	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 1
-5	22	20	#line 22 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+5	18	17	#line 18 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	18	17	#line 18 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	19	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 1
+5	18	20	#line 18 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 5	4302	20	#line 4302 "NXCDefs.h"
 5	4303	20	#pragma macro 6
 5	4303	20		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
@@ -306,515 +306,520 @@ Clump	Line	PC	Source
 5	4303	33		release __ResetSensorMutex
 5	7335	34	#line 7335 "NXCDefs.h"
 5	4302	34	#line 4302 "NXCDefs.h"
-5	23	34	#line 23 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-5	25	34	#line 25 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-5	26	34		subret __InitBumpers_return
-6	26	0	#line 26 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	0		set __signed_stack_001displayLightSensorValue, 10
-6	26	3	#line 26 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	26	3	#line 26 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	3		set __signed_stack_002displayLightSensorValue, 56
-6	26	6	#line 26 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	26	6	#line 26 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	6		strcat __strbufdisplayLightSensorValue, __constStr0009
-6	27	10	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	10		acquire __TextOutMutex
-6	27	11	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	11		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
-6	27	13	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	13		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
-6	27	15	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	15		set __TextOutArgs.Options, 0
-6	27	18	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	18		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
-6	27	20	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	20		syscall 13, __TextOutArgs
-6	27	23	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	23		mov __D0displayLightSensorValue, __TextOutArgs.Result
-6	27	25	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	25		release __TextOutMutex
-6	27	26	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	26	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	26		set __signed_stack_001displayLightSensorValue, 10
-6	27	29	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	29	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	29		set __signed_stack_002displayLightSensorValue, 48
-6	27	32	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	27	32	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	32		getin __D0displayLightSensorValue, __constVal2, 4
-6	27	36	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	36		numtostr __strretvaldisplayLightSensorValue, __D0displayLightSensorValue
-6	27	39	#line 27 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	39		strcat __strbufdisplayLightSensorValue, __strretvaldisplayLightSensorValue
-6	28	43	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	43		acquire __TextOutMutex
-6	28	44	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	44		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
-6	28	46	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	46		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
-6	28	48	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	48		set __TextOutArgs.Options, 0
-6	28	51	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	51		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
-6	28	53	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	53		syscall 13, __TextOutArgs
-6	28	56	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	56		mov __D0displayLightSensorValue, __TextOutArgs.Result
-6	28	58	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	29	58		release __TextOutMutex
-6	28	59	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	28	59	#line 28 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	30	59	#line 30 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-6	31	59		subret __displayLightSensorValue_return
-7	37	0	#line 37 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-7	38	0	#pragma macro 7
-7	38	0		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-7	7492	23	#line 7492 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-7	37	23	#line 37 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-7	39	23	#line 39 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-7	40	23		subret __StopRobot_return
-8	40	0	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	41	0		set __signed_stack_001Beep, 1000
-8	40	3	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	40	3	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	41	3		set __signed_stack_002Beep, 1000
-8	40	6	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	40	6	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	41	6		set __signed_stack_003Beep, 4
-8	40	9	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	40	9	#line 40 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	41	9		set __D0Beep, 0
-8	41	12	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	12		acquire __SPTArgsMutex
-8	41	13	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	13		mov __SPTArgs.Frequency, __signed_stack_001Beep
-8	41	15	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	15		mov __SPTArgs.Duration, __signed_stack_002Beep
-8	41	17	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	17		mov __SPTArgs.Volume, __signed_stack_003Beep
-8	41	19	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	19		mov __SPTArgs.Loop, __D0Beep
-8	41	21	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	21		syscall 10, __SPTArgs
-8	41	24	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	24		mov __D0Beep, __SPTArgs.Result
-8	41	26	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	26		release __SPTArgsMutex
-8	41	27	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	41	27	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	42	27		set __Wait_7qG2_ms_7qG2_000_inline_Beep, 1000
-8	41	30	#line 41 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+5	19	34	#line 19 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	21	34	#line 21 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	22	34		subret __InitBumpers_return
+6	22	0	#line 22 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	0		set __signed_stack_001displayLightSensorValue, 10
+6	22	3	#line 22 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	22	3	#line 22 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	3		set __signed_stack_002displayLightSensorValue, 56
+6	22	6	#line 22 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	22	6	#line 22 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	6		strcat __strbufdisplayLightSensorValue, __constStr0009
+6	23	10	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	10		acquire __TextOutMutex
+6	23	11	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	11		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
+6	23	13	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	13		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
+6	23	15	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	15		set __TextOutArgs.Options, 0
+6	23	18	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	18		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
+6	23	20	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	20		syscall 13, __TextOutArgs
+6	23	23	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	23		mov __D0displayLightSensorValue, __TextOutArgs.Result
+6	23	25	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	25		release __TextOutMutex
+6	23	26	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	26	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	26		set __signed_stack_001displayLightSensorValue, 10
+6	23	29	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	29	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	29		set __signed_stack_002displayLightSensorValue, 48
+6	23	32	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	23	32	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	32		getin __D0displayLightSensorValue, __constVal2, 4
+6	23	36	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	36		numtostr __strretvaldisplayLightSensorValue, __D0displayLightSensorValue
+6	23	39	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	39		strcat __strbufdisplayLightSensorValue, __strretvaldisplayLightSensorValue
+6	24	43	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	43		acquire __TextOutMutex
+6	24	44	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	44		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
+6	24	46	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	46		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
+6	24	48	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	48		set __TextOutArgs.Options, 0
+6	24	51	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	51		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
+6	24	53	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	53		syscall 13, __TextOutArgs
+6	24	56	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	56		mov __D0displayLightSensorValue, __TextOutArgs.Result
+6	24	58	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	58		release __TextOutMutex
+6	24	59	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	59	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	59	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	59		subret __displayLightSensorValue_return
+7	33	0	#line 33 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	34	0	#pragma macro 7
+7	34	0		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7492	23	#line 7492 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	33	23	#line 33 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	35	23	#line 35 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	36	23		subret __StopRobot_return
+8	36	0	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	37	0		set __signed_stack_001Beep, 1000
+8	36	3	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	36	3	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	37	3		set __signed_stack_002Beep, 1000
+8	36	6	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	36	6	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	37	6		set __signed_stack_003Beep, 4
+8	36	9	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	36	9	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	37	9		set __D0Beep, 0
+8	37	12	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	12		acquire __SPTArgsMutex
+8	37	13	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	13		mov __SPTArgs.Frequency, __signed_stack_001Beep
+8	37	15	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	15		mov __SPTArgs.Duration, __signed_stack_002Beep
+8	37	17	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	17		mov __SPTArgs.Volume, __signed_stack_003Beep
+8	37	19	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	19		mov __SPTArgs.Loop, __D0Beep
+8	37	21	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	21		syscall 10, __SPTArgs
+8	37	24	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	24		mov __D0Beep, __SPTArgs.Result
+8	37	26	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	26		release __SPTArgsMutex
+8	37	27	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	37	27	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	38	27		set __Wait_7qG2_ms_7qG2_000_inline_Beep, 1000
+8	37	30	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 8	8551	30	#line 8551 "NXCDefs.h"
 8	8552	30		waitv __Wait_7qG2_ms_7qG2_000_inline_Beep
 8	8551	32	#line 8551 "NXCDefs.h"
-8	42	32	#line 42 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	44	32	#line 44 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-8	45	32		subret __Beep_return
-9	45	0	#line 45 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	46	0		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
-9	45	2	#line 45 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	45	2	#line 45 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	46	2		set __D0move, 0
-9	45	5	#line 45 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	46	5		cmp 4, __D0move, __signed_stack_001move, __D0move
-9	46	9	#line 46 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	47	9		brtst 4, __ASM_Label_644, __D0move
-9	46	12	#line 46 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	47	12		mov __D0move, __move_7qG2_power_7qG2_000
-9	47	14	#line 47 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	48	14	#pragma macro 7
-9	48	14		setout __constVal2, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	7584	37	#line 7584 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	47	37	#line 47 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	47	37	#line 47 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	48	37		mov __D0move, __move_7qG2_power_7qG2_000
-9	48	39	#line 48 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	49	39	#pragma macro 10
-9	49	39		acquire __OnRevMutex
-9	49	40		neg __OnRev_Tmp, __D0move
-9	49	43		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	49	66		release __OnRevMutex
-9	7591	67	#line 7591 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	48	67	#line 48 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	49	67	#line 49 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	50	67		jmp __ASM_Label_649
-9	49	69	#line 49 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	50	69		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
-9	49	71	#line 49 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	50	71	#line 50 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	51	71		set __D0move, 1
-9	50	74	#line 50 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	51	74		cmp 4, __D0move, __signed_stack_001move, __D0move
-9	51	78	#line 51 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	52	78		brtst 4, __ASM_Label_652, __D0move
-9	51	81	#line 51 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	52	81		mov __D0move, __move_7qG2_power_7qG2_000
-9	52	83	#line 52 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	53	83	#pragma macro 7
-9	53	83		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	7615	106	#line 7615 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	52	106	#line 52 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	52	106	#line 52 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	53	106		mov __D0move, __move_7qG2_power_7qG2_000
-9	53	108	#line 53 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	54	108	#pragma macro 10
-9	54	108		acquire __OnRevMutex
-9	54	109		neg __OnRev_Tmp, __D0move
-9	54	112		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	54	135		release __OnRevMutex
-9	7622	136	#line 7622 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	53	136	#line 53 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	54	136	#line 54 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	55	136		jmp __ASM_Label_657
-9	54	138	#line 54 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	55	138		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
-9	54	140	#line 54 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	55	140	#line 55 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	56	140		set __D0move, 2
-9	55	143	#line 55 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	56	143		cmp 4, __D0move, __signed_stack_001move, __D0move
-9	56	147	#line 56 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	57	147		brtst 4, __ASM_Label_660, __D0move
-9	56	150	#line 56 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	57	150		mov __D0move, __move_7qG2_power_7qG2_000
-9	57	152	#line 57 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	58	152	#pragma macro 7
-9	58	152		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	7646	175	#line 7646 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	57	175	#line 57 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	58	175	#line 58 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	59	175		jmp __ASM_Label_663
-9	58	177	#line 58 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	59	177		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
-9	58	179	#line 58 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	59	179	#line 59 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	60	179		set __D0move, 3
-9	59	182	#line 59 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	60	182		cmp 4, __D0move, __signed_stack_001move, __D0move
-9	60	186	#line 60 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	61	186		brtst 4, __ASM_Label_666, __D0move
-9	60	189	#line 60 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	61	189		mov __D0move, __move_7qG2_power_7qG2_000
-9	61	191	#line 61 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	191	#pragma macro 10
-9	62	191		acquire __OnRevMutex
-9	62	192		neg __OnRev_Tmp, __D0move
-9	62	195		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-9	62	218		release __OnRevMutex
-9	7670	219	#line 7670 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	61	219	#line 61 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	219	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	219	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	219	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	219	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	62	219	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	63	219		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
-9	62	221	#line 62 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+8	38	32	#line 38 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	40	32	#line 40 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	41	32		subret __Beep_return
+9	41	0	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	42	0		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+9	41	2	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	41	2	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	42	2		set __D0move, 0
+9	41	5	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	42	5		cmp 4, __D0move, __signed_stack_001move, __D0move
+9	42	9	#line 42 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	43	9		brtst 4, __ASM_Label_644, __D0move
+9	42	12	#line 42 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	43	12		mov __D0move, __move_7qG2_power_7qG2_000
+9	43	14	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	44	14	#pragma macro 7
+9	44	14		setout __constVal2, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	7584	37	#line 7584 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	43	37	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	43	37	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	44	37		mov __D0move, __move_7qG2_power_7qG2_000
+9	44	39	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	45	39	#pragma macro 10
+9	45	39		acquire __OnRevMutex
+9	45	40		neg __OnRev_Tmp, __D0move
+9	45	43		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	45	66		release __OnRevMutex
+9	7591	67	#line 7591 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	44	67	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	45	67	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	46	67		jmp __ASM_Label_649
+9	45	69	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	46	69		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+9	45	71	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	46	71	#line 46 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	47	71		set __D0move, 1
+9	46	74	#line 46 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	47	74		cmp 4, __D0move, __signed_stack_001move, __D0move
+9	47	78	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	48	78		brtst 4, __ASM_Label_652, __D0move
+9	47	81	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	48	81		mov __D0move, __move_7qG2_power_7qG2_000
+9	48	83	#line 48 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	49	83	#pragma macro 7
+9	49	83		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	7615	106	#line 7615 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	48	106	#line 48 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	48	106	#line 48 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	49	106		mov __D0move, __move_7qG2_power_7qG2_000
+9	49	108	#line 49 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	50	108	#pragma macro 10
+9	50	108		acquire __OnRevMutex
+9	50	109		neg __OnRev_Tmp, __D0move
+9	50	112		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	50	135		release __OnRevMutex
+9	7622	136	#line 7622 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	49	136	#line 49 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	50	136	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	51	136		jmp __ASM_Label_657
+9	50	138	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	51	138		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+9	50	140	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	51	140	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	52	140		set __D0move, 2
+9	51	143	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	52	143		cmp 4, __D0move, __signed_stack_001move, __D0move
+9	52	147	#line 52 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	53	147		brtst 4, __ASM_Label_660, __D0move
+9	52	150	#line 52 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	53	150		mov __D0move, __move_7qG2_power_7qG2_000
+9	53	152	#line 53 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	54	152	#pragma macro 7
+9	54	152		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	7646	175	#line 7646 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	53	175	#line 53 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	54	175	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	55	175		jmp __ASM_Label_663
+9	54	177	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	55	177		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+9	54	179	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	55	179	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	56	179		set __D0move, 3
+9	55	182	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	56	182		cmp 4, __D0move, __signed_stack_001move, __D0move
+9	56	186	#line 56 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	57	186		brtst 4, __ASM_Label_666, __D0move
+9	56	189	#line 56 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	57	189		mov __D0move, __move_7qG2_power_7qG2_000
+9	57	191	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	191	#pragma macro 10
+9	58	191		acquire __OnRevMutex
+9	58	192		neg __OnRev_Tmp, __D0move
+9	58	195		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	58	218		release __OnRevMutex
+9	7670	219	#line 7670 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	57	219	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	219	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	219	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	219	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	219	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	58	219	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	59	219		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
+9	58	221	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 9	8551	221	#line 8551 "NXCDefs.h"
 9	8552	221		waitv __Wait_7qG2_ms_7qG2_000_inline_move
 9	8551	223	#line 8551 "NXCDefs.h"
-9	63	223	#line 63 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	64	223	#line 64 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	65	223		subcall StopRobot, __StopRobot_return
-9	64	225	#line 64 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	66	225	#line 66 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-9	67	225		subret __move_return
-10	67	0	#line 67 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	68	0		set __D0collectGems, 1
-10	68	3	#line 68 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	69	3		tst 5, __D0collectGems, __D0collectGems
-10	68	6	#line 68 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	69	6		brtst 4, __ASM_Label_672, __D0collectGems
-10	68	9	#line 68 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	69	9		set __D0collectGems, 100
-10	69	12	#line 69 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	70	12	#pragma macro 7
-10	70	12		setout __constVal1, 2, __D0collectGems, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	7712	35	#line 7712 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	69	35	#line 69 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	69	35	#line 69 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	70	35		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 2000
-10	69	38	#line 69 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+9	59	223	#line 59 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	60	223	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	61	223		subcall StopRobot, __StopRobot_return
+9	60	225	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	62	225	#line 62 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	63	225		subret __move_return
+10	63	0	#line 63 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	64	0		set __D0collectGems, 1
+10	64	3	#line 64 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	65	3		tst 5, __D0collectGems, __D0collectGems
+10	64	6	#line 64 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	65	6		brtst 4, __ASM_Label_672, __D0collectGems
+10	64	9	#line 64 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	65	9		set __D0collectGems, 100
+10	65	12	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	66	12	#pragma macro 7
+10	66	12		setout __constVal1, 2, __D0collectGems, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	7712	35	#line 7712 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	65	35	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	65	35	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	66	35		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 2000
+10	65	38	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 10	8551	38	#line 8551 "NXCDefs.h"
 10	8552	38		waitv __Wait_7qG2_ms_7qG2_000_inline_collectGems
 10	8551	40	#line 8551 "NXCDefs.h"
-10	70	40	#line 70 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	70	40	#line 70 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	71	40		set __D0collectGems, 100
-10	71	43	#line 71 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	72	43	#pragma macro 10
-10	72	43		acquire __OnRevMutex
-10	72	44		neg __OnRev_Tmp, __D0collectGems
-10	72	47		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-10	72	70		release __OnRevMutex
-10	7729	71	#line 7729 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	71	71	#line 71 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	71	71	#line 71 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	72	71		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 500
-10	71	74	#line 71 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
+10	66	40	#line 66 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	66	40	#line 66 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	67	40		set __D0collectGems, 100
+10	67	43	#line 67 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	68	43	#pragma macro 10
+10	68	43		acquire __OnRevMutex
+10	68	44		neg __OnRev_Tmp, __D0collectGems
+10	68	47		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	68	70		release __OnRevMutex
+10	7729	71	#line 7729 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	67	71	#line 67 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	67	71	#line 67 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	68	71		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 500
+10	67	74	#line 67 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
 10	8551	74	#line 8551 "NXCDefs.h"
 10	8552	74		waitv __Wait_7qG2_ms_7qG2_000_inline_collectGems
 10	8551	76	#line 8551 "NXCDefs.h"
-10	72	76	#line 72 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	75	76	#line 75 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	76	76		jmp __ASM_Label_671
-10	75	78	#line 75 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-10	76	78		exit -1, -1
-11	76	0	#line 76 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	77	0		set __D0routine, 1
-11	78	3	#line 78 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	79	3		tst 5, __D0routine, __D0routine
-11	78	6	#line 78 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	79	6		brtst 4, __ASM_Label_684, __D0routine
-11	78	9	#line 78 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	79	9	#pragma macro 26
-11	79	9		acquire __RLSBmutex3
-11	79	10		mov __RLSReadBuf3, __RLSBbufLSWrite1
-11	79	12		set __RLSBytesCount3, 1
-11	79	15		wait 15
-11	79	17		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-11	79	19		index __D0routine, __RLSReadBuf3, 65535
-11	79	23		release __RLSBmutex3
-11	7754	24	#line 7754 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	78	24	#line 78 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	79	24		mov __signed_stack_001routine, __D0routine
-11	79	26	#line 79 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	80	26		set __D0routine, 30
-11	79	29	#line 79 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	80	29		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
-11	80	33	#line 80 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	81	33		brtst 4, __ASM_Label_689, __D0routine
-11	81	36	#line 81 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	82	36		acquire moveMutex
-11	81	37	#line 81 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	82	37	#line 82 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	83	37		subcall StopRobot, __StopRobot_return
-11	82	39	#line 82 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	83	39	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	84	39		subcall Beep, __Beep_return
-11	83	41	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	83	41	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	84	41		set __move_7qG2_direction_7qG2_000, 1
-11	83	44	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	83	44	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	84	44		set __move_7qG2_delay_7qG2_000, 1000
-11	83	47	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	83	47	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	84	47		set __move_7qG2_power_7qG2_000, 70
-11	83	50	#line 83 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	84	50	#line 84 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	85	50		subcall move, __move_return
-11	84	52	#line 84 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	85	52	#line 85 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	86	52		release moveMutex
-11	85	53	#line 85 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	87	53	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	87	53	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	53		getin __signed_stack_001routine, __constVal0, 4
-11	87	57	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	87	57	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	57		set __D0routine, 1
-11	87	60	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	60		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
-11	87	64	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	64		brtst 5, __ASM_Label_696, __D0routine
-11	87	67	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	67		getin __signed_stack_001routine, __constVal1, 4
-11	87	71	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	87	71	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	71		set __D0routine, 1
-11	87	74	#line 87 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	88	74		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
-11	88	78	#line 88 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	89	78		brtst 4, __ASM_Label_699, __D0routine
-11	89	81	#line 89 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	90	81		acquire moveMutex
-11	89	82	#line 89 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	90	82	#line 90 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	91	82		subcall StopRobot, __StopRobot_return
-11	90	84	#line 90 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	91	84	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	84		subcall Beep, __Beep_return
-11	91	86	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	91	86	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	86		set __move_7qG2_direction_7qG2_000, 3
-11	91	89	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	91	89	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	89		set __move_7qG2_delay_7qG2_000, 2000
-11	91	92	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	91	92	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	92		set __move_7qG2_power_7qG2_000, 70
-11	91	95	#line 91 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	95	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	93	95		subcall move, __move_return
-11	92	97	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	97	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	93	97		set __move_7qG2_direction_7qG2_000, 1
-11	92	100	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	100	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	93	100		set __move_7qG2_delay_7qG2_000, 500
-11	92	103	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	92	103	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	93	103		set __move_7qG2_power_7qG2_000, 70
-11	92	106	#line 92 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	93	106	#line 93 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	94	106		subcall move, __move_return
-11	93	108	#line 93 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	94	108	#line 94 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	95	108		release moveMutex
-11	94	109	#line 94 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	96	109	#line 96 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	96	109	#line 96 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	97	109		getin __signed_stack_001routine, __constVal2, 4
-11	96	113	#line 96 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	96	113	#line 96 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	97	113		set __D0routine, 40
-11	96	116	#line 96 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	97	116		cmp 1, __D0routine, __signed_stack_001routine, __D0routine
-11	97	120	#line 97 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	98	120		brtst 4, __ASM_Label_714, __D0routine
-11	98	123	#line 98 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	99	123		acquire moveMutex
-11	98	124	#line 98 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	99	124	#line 99 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	100	124		subcall StopRobot, __StopRobot_return
-11	99	126	#line 99 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	100	126	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	126		subcall Beep, __Beep_return
-11	100	128	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	100	128	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	128		set __move_7qG2_direction_7qG2_000, 3
-11	100	131	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	100	131	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	131		set __move_7qG2_delay_7qG2_000, 2000
-11	100	134	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	100	134	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	134		set __move_7qG2_power_7qG2_000, 70
-11	100	137	#line 100 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	137	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	102	137		subcall move, __move_return
-11	101	139	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	139	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	102	139		set __move_7qG2_direction_7qG2_000, 1
-11	101	142	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	142	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	102	142		set __move_7qG2_delay_7qG2_000, 1000
-11	101	145	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	101	145	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	102	145		set __move_7qG2_power_7qG2_000, 70
-11	101	148	#line 101 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	102	148	#line 102 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	103	148		subcall move, __move_return
-11	102	150	#line 102 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	103	150	#line 103 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	104	150		release moveMutex
-11	103	151	#line 103 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	105	151	#line 105 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	105	151	#line 105 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	106	151		getin __signed_stack_001routine, __constVal2, 4
-11	105	155	#line 105 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	105	155	#line 105 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	106	155		set __D0routine, 25
-11	105	158	#line 105 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	106	158		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
-11	106	162	#line 106 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	107	162		brtst 4, __ASM_Label_729, __D0routine
-11	107	165	#line 107 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	108	165		acquire moveMutex
-11	107	166	#line 107 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	108	166	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	109	166		subcall StopRobot, __StopRobot_return
-11	108	168	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	108	168	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	109	168		set __move_7qG2_direction_7qG2_000, 2
-11	108	171	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	108	171	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	109	171		set __move_7qG2_delay_7qG2_000, 1000
-11	108	174	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	108	174	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	109	174		set __move_7qG2_power_7qG2_000, 70
-11	108	177	#line 108 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	109	177	#line 109 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	110	177		subcall move, __move_return
-11	109	179	#line 109 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	110	179	#line 110 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	111	179		subcall Beep, __Beep_return
-11	110	181	#line 110 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	111	181	#line 111 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	112	181		subcall Beep, __Beep_return
-11	111	183	#line 111 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	112	183	#line 112 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	113	183		subcall Beep, __Beep_return
-11	112	185	#line 112 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	113	185	#line 113 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	114	185		release moveMutex
-11	113	186	#line 113 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	114	186	#line 114 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	115	186		jmp __ASM_Label_684
-11	114	188	#line 114 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	117	188	#line 117 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	118	188	#line 118 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	119	188		subcall displayLightSensorValue, __displayLightSensorValue_return
-11	118	190	#line 118 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	121	190	#line 121 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	122	190		jmp __ASM_Label_683
-11	121	192	#line 121 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-11	122	192		exit -1, -1
-12	123	0	#line 123 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	124	0		set __D0goForward, 1
-12	124	3	#line 124 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	125	3		tst 5, __D0goForward, __D0goForward
-12	124	6	#line 124 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	125	6		brtst 4, __ASM_Label_737, __D0goForward
-12	125	9	#line 125 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	126	9		acquire moveMutex
-12	125	10	#line 125 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	126	10	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	127	10		release moveMutex
-12	126	11	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	126	11	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	127	11		set __move_7qG2_direction_7qG2_000, 2
-12	126	14	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	126	14	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	127	14		set __move_7qG2_delay_7qG2_000, 1000
-12	126	17	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	126	17	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	127	17		set __move_7qG2_power_7qG2_000, 70
-12	126	20	#line 126 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	127	20	#line 127 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	128	20		subcall move, __move_return
-12	127	22	#line 127 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	131	22	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	132	22		jmp __ASM_Label_736
-12	131	24	#line 131 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-12	132	24		exit -1, -1
-13	133	0	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	134	0		subcall InitBumpers, __InitBumpers_return
-13	133	2	#line 133 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	134	2	#line 134 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	135	2		subcall InitUltraSonicSensor, __InitUltraSonicSensor_return
-13	134	4	#line 134 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	135	4	#line 135 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	136	4		subcall InitLightSensor, __InitLightSensor_return
-13	135	6	#line 135 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	137	6	#line 137 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-13	138	6		subret __initialize_return
-14	143	0	#line 143 "C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc"
-14	144	0		subret ____initialize_global_data_return
+10	68	76	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	71	76	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	72	76		jmp __ASM_Label_671
+10	71	78	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	72	78		exit -1, -1
+11	72	0	#line 72 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	73	0		set __D0routine, 1
+11	74	3	#line 74 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	75	3		tst 5, __D0routine, __D0routine
+11	74	6	#line 74 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	75	6		brtst 4, __ASM_Label_684, __D0routine
+11	74	9	#line 74 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	75	9	#pragma macro 26
+11	75	9		acquire __RLSBmutex3
+11	75	10		mov __RLSReadBuf3, __RLSBbufLSWrite1
+11	75	12		set __RLSBytesCount3, 1
+11	75	15		wait 15
+11	75	17		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+11	75	19		index __D0routine, __RLSReadBuf3, 65535
+11	75	23		release __RLSBmutex3
+11	7754	24	#line 7754 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	74	24	#line 74 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	75	24		mov __signed_stack_001routine, __D0routine
+11	75	26	#line 75 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	76	26		set __D0routine, 30
+11	75	29	#line 75 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	76	29		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
+11	76	33	#line 76 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	77	33		brtst 4, __ASM_Label_689, __D0routine
+11	77	36	#line 77 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	78	36		acquire moveMutex
+11	77	37	#line 77 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	78	37	#line 78 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	79	37		subcall StopRobot, __StopRobot_return
+11	78	39	#line 78 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	79	39	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	80	39		subcall Beep, __Beep_return
+11	79	41	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	79	41	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	80	41		set __move_7qG2_direction_7qG2_000, 1
+11	79	44	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	79	44	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	80	44		set __move_7qG2_delay_7qG2_000, 500
+11	79	47	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	79	47	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	80	47		set __move_7qG2_power_7qG2_000, 100
+11	79	50	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	80	50	#line 80 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	81	50		subcall move, __move_return
+11	80	52	#line 80 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	81	52	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	82	52		release moveMutex
+11	81	53	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	83	53	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	83	53	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	53		getin __signed_stack_001routine, __constVal0, 4
+11	83	57	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	83	57	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	57		set __D0routine, 1
+11	83	60	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	60		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+11	83	64	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	64		brtst 5, __ASM_Label_696, __D0routine
+11	83	67	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	67		getin __signed_stack_001routine, __constVal1, 4
+11	83	71	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	83	71	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	71		set __D0routine, 1
+11	83	74	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	84	74		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+11	84	78	#line 84 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	85	78		brtst 4, __ASM_Label_699, __D0routine
+11	85	81	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	86	81		acquire moveMutex
+11	85	82	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	86	82	#line 86 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	87	82		subcall StopRobot, __StopRobot_return
+11	86	84	#line 86 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	87	84	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	84		subcall Beep, __Beep_return
+11	87	86	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	87	86	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	86		set __move_7qG2_direction_7qG2_000, 3
+11	87	89	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	87	89	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	89		set __move_7qG2_delay_7qG2_000, 1000
+11	87	92	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	87	92	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	92		set __move_7qG2_power_7qG2_000, 100
+11	87	95	#line 87 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	95	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	89	95		subcall move, __move_return
+11	88	97	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	97	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	89	97		set __move_7qG2_direction_7qG2_000, 1
+11	88	100	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	100	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	89	100		set __move_7qG2_delay_7qG2_000, 500
+11	88	103	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	88	103	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	89	103		set __move_7qG2_power_7qG2_000, 100
+11	88	106	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	89	106	#line 89 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	90	106		subcall move, __move_return
+11	89	108	#line 89 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	90	108	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	91	108		release moveMutex
+11	90	109	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	92	109	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	92	109	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	93	109		getin __signed_stack_001routine, __constVal2, 4
+11	92	113	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	92	113	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	93	113		set __D0routine, 40
+11	92	116	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	93	116		cmp 1, __D0routine, __signed_stack_001routine, __D0routine
+11	93	120	#line 93 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	94	120		brtst 4, __ASM_Label_714, __D0routine
+11	94	123	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	95	123		acquire moveMutex
+11	94	124	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	95	124	#line 95 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	96	124		subcall StopRobot, __StopRobot_return
+11	95	126	#line 95 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	96	126	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	126		subcall Beep, __Beep_return
+11	96	128	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	96	128	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	128		set __move_7qG2_direction_7qG2_000, 3
+11	96	131	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	96	131	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	131		set __move_7qG2_delay_7qG2_000, 1000
+11	96	134	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	96	134	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	134		set __move_7qG2_power_7qG2_000, 100
+11	96	137	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	137	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	98	137		subcall move, __move_return
+11	97	139	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	139	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	98	139		set __move_7qG2_direction_7qG2_000, 1
+11	97	142	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	142	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	98	142		set __move_7qG2_delay_7qG2_000, 1000
+11	97	145	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	97	145	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	98	145		set __move_7qG2_power_7qG2_000, 100
+11	97	148	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	98	148	#line 98 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	99	148		subcall move, __move_return
+11	98	150	#line 98 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	99	150	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	100	150		release moveMutex
+11	99	151	#line 99 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	101	151	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	101	151	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	102	151		getin __signed_stack_001routine, __constVal2, 4
+11	101	155	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	101	155	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	102	155		set __D0routine, 25
+11	101	158	#line 101 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	102	158		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
+11	102	162	#line 102 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	103	162		brtst 4, __ASM_Label_729, __D0routine
+11	103	165	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	104	165		acquire moveMutex
+11	103	166	#line 103 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	104	166	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	105	166		subcall StopRobot, __StopRobot_return
+11	104	168	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	104	168	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	105	168		set __move_7qG2_direction_7qG2_000, 2
+11	104	171	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	104	171	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	105	171		set __move_7qG2_delay_7qG2_000, 500
+11	104	174	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	104	174	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	105	174		set __move_7qG2_power_7qG2_000, 100
+11	104	177	#line 104 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	105	177	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	106	177		subcall move, __move_return
+11	105	179	#line 105 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	106	179	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	107	179		subcall Beep, __Beep_return
+11	106	181	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	107	181	#line 107 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	108	181		subcall Beep, __Beep_return
+11	107	183	#line 107 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	108	183	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	109	183		subcall Beep, __Beep_return
+11	108	185	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	109	185	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	110	185		release moveMutex
+11	109	186	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	110	186	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	111	186		jmp __ASM_Label_684
+11	110	188	#line 110 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	113	188	#line 113 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	114	188	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	115	188		subcall displayLightSensorValue, __displayLightSensorValue_return
+11	114	190	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	115	190	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	116	190		jmp __ASM_Label_683
+11	115	192	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	115	192	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	116	192		set __D0routine, 1
+11	116	195	#line 116 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	117	195		stop __D0routine
+11	116	197	#line 116 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	117	197		exit -1, -1
+12	120	0	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	121	0		set __D0goForward, 1
+12	121	3	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	122	3		tst 5, __D0goForward, __D0goForward
+12	121	6	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	122	6		brtst 4, __ASM_Label_739, __D0goForward
+12	122	9	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	123	9		acquire moveMutex
+12	122	10	#line 122 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	123	10	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	124	10		release moveMutex
+12	123	11	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	123	11	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	124	11		set __move_7qG2_direction_7qG2_000, 2
+12	123	14	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	123	14	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	124	14		set __move_7qG2_delay_7qG2_000, 1000
+12	123	17	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	123	17	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	124	17		set __move_7qG2_power_7qG2_000, 100
+12	123	20	#line 123 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	124	20	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	125	20		subcall move, __move_return
+12	124	22	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	128	22	#line 128 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	129	22		jmp __ASM_Label_738
+12	128	24	#line 128 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	129	24		exit -1, -1
+13	130	0	#line 130 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	131	0		subcall InitBumpers, __InitBumpers_return
+13	130	2	#line 130 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	131	2	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	132	2		subcall InitUltraSonicSensor, __InitUltraSonicSensor_return
+13	131	4	#line 131 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	132	4	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	133	4		subcall InitLightSensor, __InitLightSensor_return
+13	132	6	#line 132 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	134	6	#line 134 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+13	135	6		subret __initialize_return
+14	140	0	#line 140 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+14	141	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
+0	main	0	C:\Users\Germain\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	7	NXTDefs.h
 2	__ReadLSBytes3	20	NXTDefs.h
-3	InitLightSensor	105	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-4	InitUltraSonicSensor	153	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-5	InitBumpers	201	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-6	displayLightSensorValue	237	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-7	StopRobot	298	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-8	Beep	323	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-9	move	357	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-10	collectGems	584	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-11	routine	665	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-12	goForward	860	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-13	initialize	887	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
-14	__initialize_global_data	895	C:\Users\Germain\Documents\Programmation\RobotCup\RobotCup2016\Main.nxc
+3	InitLightSensor	105	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+4	InitUltraSonicSensor	153	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+5	InitBumpers	201	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+6	displayLightSensorValue	237	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+7	StopRobot	298	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+8	Beep	323	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+9	move	357	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+10	collectGems	584	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+11	routine	665	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+12	goForward	865	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+13	initialize	892	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+14	__initialize_global_data	900	C:\Users\Germain\AppData\Local\Temp\temp.nxc
