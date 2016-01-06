@@ -37,7 +37,7 @@ void StopRobot(){
    Off(OUT_AC);
 }
 
-void Beep(){
+task Beep(){
   PlayTone(1000,1000);
   Wait(1000);
 }
@@ -77,8 +77,8 @@ task collectGems(){
   while(!end){
     OnFwd(OUT_B, 100);
     Wait(2000);
-    OnRev(OUT_B, 100);
-    Wait(500);
+    OnRev(OUT_B, 50);
+    Wait(1000);
   }
 }
 
@@ -99,29 +99,20 @@ int randomDirection(){
 
 task routine(){
  while(!end){
-    //Check for obstacle
-    if(SensorUS(IN_4) < 60)
-    {
+   //Check for black zone
+   if(Sensor(IN_3) < 25 && time > 120){
       Acquire(moveMutex);
       StopRobot();
-      Beep();
-      move(randomDirection(), 1000, SPEED);
+      move(FORWARD, 500 , SPEED);
+      finishProgram();
       Release(moveMutex);
-    }
-    //Bump into obstacle
-    if(SENSOR_1 == 1 || SENSOR_2 == 1){
-      Acquire(moveMutex);
-      StopRobot();
-      Beep();
-      move(BACKWARD, 1000, SPEED);
-      move(randomDirection(), 1000, SPEED);
-      Release(moveMutex);
-    }
-    //Check for boundary
+      break;
+   }
+   //Check for boundary
     if(Sensor(IN_3) > 40){
       Acquire(moveMutex);
       StopRobot();
-      Beep();
+      //StartTask(Beep);
       move(BACKWARD, 1000, SPEED);
       if(nbHit == 0){
         lastMove = randomDirection();
@@ -130,12 +121,24 @@ task routine(){
       move(lastMove, 2000, SPEED);
       Release(moveMutex);
     }
-    //Check for black zone
-    if(Sensor(IN_3) < 25 && time > 120){
+   //Bump into obstacle
+    if(SENSOR_1 == 1 || SENSOR_2 == 1){
       Acquire(moveMutex);
+      nbHit = 0;
       StopRobot();
-      move(FORWARD, 500 , SPEED);
-      finishProgram();
+      //StartTask(Beep);
+      move(BACKWARD, 1000, SPEED);
+      move(randomDirection(), 1500, SPEED);
+      Release(moveMutex);
+    }
+    //Check for obstacle
+    if(SensorUS(IN_4) < 40)
+    {
+      Acquire(moveMutex);
+      nbHit = 0;
+      StopRobot();
+      //StartTask(Beep);
+      move(randomDirection(), 1500, SPEED);
       Release(moveMutex);
     }
   }
@@ -146,23 +149,24 @@ task goForward(){
   while(!end){
     Acquire(moveMutex);
     Release(moveMutex);
-    move(FORWARD, 1000 , SPEED);
-
+    move(FORWARD, 5000 ,SPEED);
   }
 }
 
 task countTime(){
-  while(true){
+  while(!end){
     time += 1;
     TextOut(5,LCD_LINE3,"Elapsed Time : ");
     TextOut(5,LCD_LINE4,NumToStr(time) + " seconds");
   }
 }
 
-
-void initialize(){
+task pacmanBeginning(){
   PlayFileEx("pacman_beginnin.rso",7,FALSE);
   Wait(5000);
+}
+
+void initialize(){
   InitBumpers();
   InitUltraSonicSensor();
   InitLightSensor();
@@ -170,5 +174,6 @@ void initialize(){
 
 task main(){
   initialize();
-  Precedes(routine, collectGems, goForward,countTime);
+  //Precedes(pacmanBeginning);
+  Precedes(routine, collectGems, goForward);
 }
