@@ -26,11 +26,13 @@ void InitBumpers(){
 void displayLightSensorValue(){
   TextOut(10,LCD_LINE1,"LightSensor value : ");
   TextOut(10,LCD_LINE2,NumToStr(Sensor(IN_3)));
+  Wait(100);
 }
 
 void displayUltraSonicSensorValue(){
   TextOut(10,LCD_LINE1,"UltraSonic value : ");
   TextOut(10,LCD_LINE2,NumToStr(SensorUS(IN_4)));
+  Wait(100);
 }
 
 void Beep(){
