@@ -1,0 +1,772 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_InitLightSensor	6	1	0	4	2
+1	__D0routine	6	1	4	4	22
+2	__DU0SetSensorLight_inline_InitLightSensor	5	1	8	4	5
+3	__DU0SetSensorLowspeed_inline_InitUltraSonicSensor	5	1	12	4	5
+4	__D0SetSensorLowspeed_inline_InitUltraSonicSensor	6	1	16	4	2
+5	__D0move	6	1	20	4	28
+6	__SPTArgsMutex	9	0	24	4	2
+7	__RLSBmutex3	9	0	28	4	2
+8	__D0Beep	6	1	32	4	3
+9	__D0displayLightSensorValue	6	1	36	4	4
+10	__D0collectGems	6	1	40	4	8
+11	__Wait_7qG2_ms_7qG2_000_inline_displayLightSensorValue	5	1	44	4	2
+12	__signed_stack_001routine	6	1	48	4	8
+13	__Wait_7qG2_ms_7qG2_000_inline_Beep	5	1	52	4	2
+14	__Wait_7qG2_ms_7qG2_000_inline_collectGems	5	1	56	4	4
+15	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	60	4	8
+16	__signed_stack_001move	6	1	64	4	8
+17	__signed_stack_002Beep	6	1	68	4	2
+18	__signed_stack_001Beep	6	1	72	4	2
+19	__signed_stack_003Beep	6	1	76	4	2
+20	__signed_stack_002displayLightSensorValue	6	1	80	4	4
+21	__signed_stack_001displayLightSensorValue	6	1	84	4	4
+22	__ResetSensorMutex	9	0	88	4	8
+23	__TextOutMutex	9	0	92	4	4
+24	__OnRevMutex	9	0	96	4	8
+25	__CLSCSMutex3	9	0	100	4	2
+26	__CLSWMutex3	9	0	104	4	2
+27	__CLSRMutex3	9	0	108	4	2
+28	__move_7qG2_direction_7qG2_000	4	1	112	2	10
+29	__move_7qG2_delay_7qG2_000	4	1	114	2	10
+30	__move_7qG2_power_7qG2_000	4	1	116	2	12
+31	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	118	1	2
+32	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	119	1	2
+33	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	120	1	2
+34	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	121	1	2
+35	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	122	1	2
+36	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor	1	1	123	1	4
+37	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor	1	1	124	1	2
+38	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	125	1	2
+39	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	126	1	2
+40	__InitUltraSonicSensor_return	1	1	127	1	3
+41	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor	1	1	128	1	2
+42	__constVal63	2	0	129	1	12
+43	__constVal96	2	0	130	1	12
+44	__OnRev_Tmp	2	1	131	1	8
+45	____initialize_global_data_return	1	1	132	1	3
+46	__initialize_return	1	1	133	1	3
+47	__move_return	1	1	134	1	8
+48	__SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers	1	1	135	1	8
+49	__InitBumpers_return	1	1	136	1	3
+50	__displayLightSensorValue_return	1	1	137	1	3
+51	__Beep_return	1	1	138	1	5
+52	__constVal32	2	0	139	1	38
+53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	140	1	2
+54	__RLSBytesCount3	1	1	141	1	7
+55	__RLSBIterations3	1	1	142	1	4
+56	__ResetSensorTmp	1	1	143	1	2
+57	____ResetSensorSubroutine_return	1	1	144	1	6
+58	__constVal2	2	0	145	1	4
+59	__LSWriteOptions3	1	1	146	1	1
+60	__RLSBResult3	2	1	147	1	7
+61	____ReadLSBytes3_return	1	1	148	1	3
+62	__SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor	1	1	149	1	4
+63	__InitLightSensor_return	1	1	150	1	3
+64	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor	1	1	151	1	2
+65	__SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor	1	1	152	1	2
+66	__constVal3	2	0	153	1	13
+67	__ResetSensorPort	1	1	154	1	6
+68	__constVal1	2	0	155	1	9
+69	__constVal0	2	1	156	1	44
+70	__SPTArgs	8	0	5	8	6
+71	__SPTArgs.Result	2	1	160	1	6
+72	__SPTArgs.Frequency	3	1	162	2	6
+73	__SPTArgs.Duration	3	1	164	2	6
+74	__SPTArgs.Loop	1	1	166	1	6
+75	__SPTArgs.Volume	1	1	167	1	6
+76	__TextOutArgs	8	0	4	16	12
+77	__TextOutArgs.Result	2	1	168	1	12
+78	__TextOutArgs.Location	8	0	2	4	12
+79	__TextOutArgs.Location.X	4	1	172	2	12
+80	__TextOutArgs.Location.Y	4	1	174	2	12
+81	__TextOutArgs.Text	7	0	176	4	12
+82	__TextOutArgs.Text.Text_type	1	0	0	1	0
+83	__TextOutArgs.Options	5	1	180	4	12
+84	__CLSWArgs3	8	0	4	12	5
+85	__CLSWArgs3.Result	2	1	184	1	5
+86	__CLSWArgs3.Port	1	1	185	1	5
+87	__CLSWArgs3.Buffer	7	0	186	4	5
+88	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+89	__CLSWArgs3.ReturnLen	1	1	188	1	5
+90	__CLSCSArgs3	8	0	3	4	4
+91	__CLSCSArgs3.Result	2	1	192	1	4
+92	__CLSCSArgs3.Port	1	1	193	1	4
+93	__CLSCSArgs3.BytesReady	1	1	194	1	4
+94	__CLSRArgs3	8	0	4	12	5
+95	__CLSRArgs3.Result	2	1	196	1	5
+96	__CLSRArgs3.Port	1	1	197	1	5
+97	__CLSRArgs3.Buffer	7	0	198	4	5
+98	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+99	__CLSRArgs3.BufferLen	1	1	200	1	5
+100	__RLSLastGoodRead3	7	0	202	4	2
+101	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+102	__OUT_AC	7	0	204	4	6
+103	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+104	__constStr0009	7	0	206	4	1
+105	__constStr0009.__constStr0009_type	1	1	0	1	0
+106	__strretvaldisplayLightSensorValue	7	0	208	4	2
+107	__strretvaldisplayLightSensorValue.__strretvaldisplayLightSensorValue_type	1	0	0	1	0
+108	__strbufdisplayLightSensorValue	7	0	210	4	4
+109	__strbufdisplayLightSensorValue.__strbufdisplayLightSensorValue_type	1	0	0	1	0
+110	__RLSReadBuf3	7	0	212	4	8
+111	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+112	__RLSBbufLSWrite1	7	0	214	4	1
+113	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	119	0	#line 119 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	120	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	119	2	#line 119 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	120	2	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	121	2		subcall initialize, __initialize_return
+0	120	4	#line 120 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	121	4	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	121	4	#line 121 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+0	122	4		exit 0, 1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6393	0	#pragma macro 25
+2	6393	0		acquire __CLSWMutex3
+2	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+2	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6393	9		syscall 21, __CLSWArgs3
+2	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+2	6393	14		release __CLSWMutex3
+2	6393	15	#line 6393 "NXTDefs.h"
+2	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+2	6395	18		set __RLSBIterations3, 60
+2	6397	21	#pragma macro 23
+2	6397	21		acquire __CLSCSMutex3
+2	6397	22		set __CLSCSArgs3.Port, 3
+2	6397	25		syscall 23, __CLSCSArgs3
+2	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6397	32		release __CLSCSMutex3
+2	6397	33	#line 6397 "NXTDefs.h"
+2	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+2	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+2	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6403	46		wait 1
+2	6404	48		jmp __RLSBDoCheckStatus3
+2	6406	50		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6407	53		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6409	57	#pragma macro 25
+2	6409	57		acquire __CLSRMutex3
+2	6409	58		set __CLSRArgs3.Port, 3
+2	6409	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6409	63		syscall 22, __CLSRArgs3
+2	6409	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6409	68		mov __RLSBResult3, __CLSRArgs3.Result
+2	6409	70		release __CLSRMutex3
+2	6409	71	#line 6409 "NXTDefs.h"
+2	6410	71		brtst 5, __RLSBError3, __RLSBResult3
+2	6411	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6412	76		jmp __RLSBDone3
+2	6414	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6416	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6418	83		subret ____ReadLSBytes3_return
+3	11	0	#line 11 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	12	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor, 2
+3	11	3	#line 11 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	12	3	#line 12 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	13	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor, __constVal1
+3	4313	5	#line 4313 "NXCDefs.h"
+3	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor
+3	4313	7	#line 4313 "NXCDefs.h"
+3	4313	7	#line 4313 "NXCDefs.h"
+3	4314	7		mov __DU0SetSensorLight_inline_InitLightSensor, __SetSensorLight_7qG2_bActive_7qG2_000_inline_InitLightSensor
+3	4313	9	#line 4313 "NXCDefs.h"
+3	4314	9		tst 5, __D0SetSensorLight_inline_InitLightSensor, __DU0SetSensorLight_inline_InitLightSensor
+3	4313	12	#line 4313 "NXCDefs.h"
+3	4314	12		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_InitLightSensor
+3	4313	15	#line 4313 "NXCDefs.h"
+3	4314	15		set __DU0SetSensorLight_inline_InitLightSensor, 5
+3	4313	18	#line 4313 "NXCDefs.h"
+3	4313	18	#line 4313 "NXCDefs.h"
+3	4314	18		jmp __001__ASM_Label_5
+3	4313	20	#line 4313 "NXCDefs.h"
+3	4314	20		set __DU0SetSensorLight_inline_InitLightSensor, 6
+3	4313	23	#line 4313 "NXCDefs.h"
+3	4313	23	#line 4313 "NXCDefs.h"
+3	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __DU0SetSensorLight_inline_InitLightSensor
+3	4247	25	#line 4247 "NXCDefs.h"
+3	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, 0
+3	4247	29	#line 4247 "NXCDefs.h"
+3	4314	29	#line 4314 "NXCDefs.h"
+3	4314	29	#line 4314 "NXCDefs.h"
+3	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor
+3	4314	31	#line 4314 "NXCDefs.h"
+3	4314	31	#line 4314 "NXCDefs.h"
+3	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, 128
+3	4314	34	#line 4314 "NXCDefs.h"
+3	4260	34	#line 4260 "NXCDefs.h"
+3	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, 1
+3	4260	38	#line 4260 "NXCDefs.h"
+3	4315	38	#line 4315 "NXCDefs.h"
+3	4315	38	#line 4315 "NXCDefs.h"
+3	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor, __SetSensorLight_7qG2_port_7qG2_000_inline_InitLightSensor
+3	4315	40	#line 4315 "NXCDefs.h"
+3	4278	40	#line 4278 "NXCDefs.h"
+3	4279	40	#pragma macro 4
+3	4279	40		acquire __ResetSensorMutex
+3	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_InitLightSensor
+3	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+3	4279	45		release __ResetSensorMutex
+3	7209	46	#line 7209 "NXCDefs.h"
+3	4278	46	#line 4278 "NXCDefs.h"
+3	4316	46	#line 4316 "NXCDefs.h"
+3	12	46	#line 12 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	14	46	#line 14 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+3	15	46		subret __InitLightSensor_return
+4	15	0	#line 15 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	16	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor, 3
+4	15	3	#line 15 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	16	3	#line 16 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	17	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor, __constVal1
+4	4342	5	#line 4342 "NXCDefs.h"
+4	4343	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor
+4	4342	7	#line 4342 "NXCDefs.h"
+4	4342	7	#line 4342 "NXCDefs.h"
+4	4343	7		mov __DU0SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_InitUltraSonicSensor
+4	4342	9	#line 4342 "NXCDefs.h"
+4	4343	9		tst 5, __D0SetSensorLowspeed_inline_InitUltraSonicSensor, __DU0SetSensorLowspeed_inline_InitUltraSonicSensor
+4	4342	12	#line 4342 "NXCDefs.h"
+4	4343	12		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_InitUltraSonicSensor
+4	4342	15	#line 4342 "NXCDefs.h"
+4	4343	15		set __DU0SetSensorLowspeed_inline_InitUltraSonicSensor, 11
+4	4342	18	#line 4342 "NXCDefs.h"
+4	4342	18	#line 4342 "NXCDefs.h"
+4	4343	18		jmp __004__ASM_Label_37
+4	4342	20	#line 4342 "NXCDefs.h"
+4	4343	20		set __DU0SetSensorLowspeed_inline_InitUltraSonicSensor, 10
+4	4342	23	#line 4342 "NXCDefs.h"
+4	4342	23	#line 4342 "NXCDefs.h"
+4	4343	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __DU0SetSensorLowspeed_inline_InitUltraSonicSensor
+4	4247	25	#line 4247 "NXCDefs.h"
+4	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, 0
+4	4247	29	#line 4247 "NXCDefs.h"
+4	4343	29	#line 4343 "NXCDefs.h"
+4	4343	29	#line 4343 "NXCDefs.h"
+4	4344	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor
+4	4343	31	#line 4343 "NXCDefs.h"
+4	4343	31	#line 4343 "NXCDefs.h"
+4	4344	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, 0
+4	4343	34	#line 4343 "NXCDefs.h"
+4	4260	34	#line 4260 "NXCDefs.h"
+4	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, 1
+4	4260	38	#line 4260 "NXCDefs.h"
+4	4344	38	#line 4344 "NXCDefs.h"
+4	4344	38	#line 4344 "NXCDefs.h"
+4	4345	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_InitUltraSonicSensor
+4	4344	40	#line 4344 "NXCDefs.h"
+4	4278	40	#line 4278 "NXCDefs.h"
+4	4279	40	#pragma macro 4
+4	4279	40		acquire __ResetSensorMutex
+4	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_InitUltraSonicSensor
+4	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	4279	45		release __ResetSensorMutex
+4	7305	46	#line 7305 "NXCDefs.h"
+4	4278	46	#line 4278 "NXCDefs.h"
+4	4345	46	#line 4345 "NXCDefs.h"
+4	16	46	#line 16 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	18	46	#line 18 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+4	19	46		subret __InitUltraSonicSensor_return
+5	19	0	#line 19 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	20	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
+5	19	3	#line 19 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	4302	3	#line 4302 "NXCDefs.h"
+5	4303	3	#pragma macro 6
+5	4303	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
+5	4303	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 1
+5	4303	11		acquire __ResetSensorMutex
+5	4303	12		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers
+5	4303	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	4303	16		release __ResetSensorMutex
+5	7323	17	#line 7323 "NXCDefs.h"
+5	4302	17	#line 4302 "NXCDefs.h"
+5	20	17	#line 20 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	20	17	#line 20 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	21	17		set __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 1
+5	20	20	#line 20 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	4302	20	#line 4302 "NXCDefs.h"
+5	4303	20	#pragma macro 6
+5	4303	20		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 0
+5	4303	24		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers, 1
+5	4303	28		acquire __ResetSensorMutex
+5	4303	29		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_InitBumpers
+5	4303	31		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	4303	33		release __ResetSensorMutex
+5	7331	34	#line 7331 "NXCDefs.h"
+5	4302	34	#line 4302 "NXCDefs.h"
+5	21	34	#line 21 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	23	34	#line 23 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+5	24	34		subret __InitBumpers_return
+6	24	0	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	0		set __signed_stack_001displayLightSensorValue, 10
+6	24	3	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	3	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	3		set __signed_stack_002displayLightSensorValue, 56
+6	24	6	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	24	6	#line 24 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	6		strcat __strbufdisplayLightSensorValue, __constStr0009
+6	25	10	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	10		acquire __TextOutMutex
+6	25	11	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	11		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
+6	25	13	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	13		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
+6	25	15	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	15		set __TextOutArgs.Options, 0
+6	25	18	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	18		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
+6	25	20	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	20		syscall 13, __TextOutArgs
+6	25	23	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	23		mov __D0displayLightSensorValue, __TextOutArgs.Result
+6	25	25	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	25		release __TextOutMutex
+6	25	26	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	26	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	26		set __signed_stack_001displayLightSensorValue, 10
+6	25	29	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	29	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	29		set __signed_stack_002displayLightSensorValue, 48
+6	25	32	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	25	32	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	32		getin __D0displayLightSensorValue, __constVal2, 4
+6	25	36	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	36		numtostr __strretvaldisplayLightSensorValue, __D0displayLightSensorValue
+6	25	39	#line 25 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	39		strcat __strbufdisplayLightSensorValue, __strretvaldisplayLightSensorValue
+6	26	43	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	43		acquire __TextOutMutex
+6	26	44	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	44		mov __TextOutArgs.Location.X, __signed_stack_001displayLightSensorValue
+6	26	46	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	46		mov __TextOutArgs.Location.Y, __signed_stack_002displayLightSensorValue
+6	26	48	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	48		set __TextOutArgs.Options, 0
+6	26	51	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	51		mov __TextOutArgs.Text, __strbufdisplayLightSensorValue
+6	26	53	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	53		syscall 13, __TextOutArgs
+6	26	56	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	56		mov __D0displayLightSensorValue, __TextOutArgs.Result
+6	26	58	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	58		release __TextOutMutex
+6	26	59	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	59	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	26	59	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	27	59		set __Wait_7qG2_ms_7qG2_000_inline_displayLightSensorValue, 100
+6	26	62	#line 26 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	8551	62	#line 8551 "NXCDefs.h"
+6	8552	62		waitv __Wait_7qG2_ms_7qG2_000_inline_displayLightSensorValue
+6	8551	64	#line 8551 "NXCDefs.h"
+6	27	64	#line 27 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	29	64	#line 29 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+6	30	64		subret __displayLightSensorValue_return
+7	36	0	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	37	0		set __signed_stack_001Beep, 1000
+7	36	3	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	36	3	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	37	3		set __signed_stack_002Beep, 1000
+7	36	6	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	36	6	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	37	6		set __signed_stack_003Beep, 4
+7	36	9	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	36	9	#line 36 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	37	9		set __D0Beep, 0
+7	37	12	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	12		acquire __SPTArgsMutex
+7	37	13	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	13		mov __SPTArgs.Frequency, __signed_stack_001Beep
+7	37	15	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	15		mov __SPTArgs.Duration, __signed_stack_002Beep
+7	37	17	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	17		mov __SPTArgs.Volume, __signed_stack_003Beep
+7	37	19	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	19		mov __SPTArgs.Loop, __D0Beep
+7	37	21	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	21		syscall 10, __SPTArgs
+7	37	24	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	24		mov __D0Beep, __SPTArgs.Result
+7	37	26	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	26		release __SPTArgsMutex
+7	37	27	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	37	27	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	38	27		set __Wait_7qG2_ms_7qG2_000_inline_Beep, 1000
+7	37	30	#line 37 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	8551	30	#line 8551 "NXCDefs.h"
+7	8552	30		waitv __Wait_7qG2_ms_7qG2_000_inline_Beep
+7	8551	32	#line 8551 "NXCDefs.h"
+7	38	32	#line 38 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	40	32	#line 40 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+7	41	32		subret __Beep_return
+8	41	0	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	42	0		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+8	41	2	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	41	2	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	42	2		set __D0move, 0
+8	41	5	#line 41 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	42	5		cmp 4, __D0move, __signed_stack_001move, __D0move
+8	42	9	#line 42 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	43	9		brtst 4, __ASM_Label_648, __D0move
+8	42	12	#line 42 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	43	12		mov __D0move, __move_7qG2_power_7qG2_000
+8	43	14	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	44	14	#pragma macro 7
+8	44	14		setout __constVal2, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7596	37	#line 7596 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	43	37	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	43	37	#line 43 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	44	37		mov __D0move, __move_7qG2_power_7qG2_000
+8	44	39	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	45	39	#pragma macro 10
+8	45	39		acquire __OnRevMutex
+8	45	40		neg __OnRev_Tmp, __D0move
+8	45	43		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	45	66		release __OnRevMutex
+8	7603	67	#line 7603 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	44	67	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	44	67	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	45	67		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
+8	44	69	#line 44 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	8551	69	#line 8551 "NXCDefs.h"
+8	8552	69		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+8	8551	71	#line 8551 "NXCDefs.h"
+8	45	71	#line 45 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	46	71	#line 46 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	47	71	#pragma macro 7
+8	47	71		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7620	94	#line 7620 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	46	94	#line 46 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	47	94	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	48	94		jmp __ASM_Label_655
+8	47	96	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	48	96		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+8	47	98	#line 47 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	48	98	#line 48 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	49	98		set __D0move, 1
+8	48	101	#line 48 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	49	101		cmp 4, __D0move, __signed_stack_001move, __D0move
+8	49	105	#line 49 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	50	105		brtst 4, __ASM_Label_658, __D0move
+8	49	108	#line 49 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	50	108		mov __D0move, __move_7qG2_power_7qG2_000
+8	50	110	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	51	110	#pragma macro 7
+8	51	110		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7644	133	#line 7644 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	50	133	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	50	133	#line 50 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	51	133		mov __D0move, __move_7qG2_power_7qG2_000
+8	51	135	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	52	135	#pragma macro 10
+8	52	135		acquire __OnRevMutex
+8	52	136		neg __OnRev_Tmp, __D0move
+8	52	139		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	52	162		release __OnRevMutex
+8	7651	163	#line 7651 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	51	163	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	51	163	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	52	163		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
+8	51	165	#line 51 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	8551	165	#line 8551 "NXCDefs.h"
+8	8552	165		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+8	8551	167	#line 8551 "NXCDefs.h"
+8	52	167	#line 52 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	53	167	#line 53 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	54	167	#pragma macro 7
+8	54	167		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7664	190	#line 7664 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	53	190	#line 53 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	54	190	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	55	190		jmp __ASM_Label_665
+8	54	192	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	55	192		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+8	54	194	#line 54 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	55	194	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	56	194		set __D0move, 2
+8	55	197	#line 55 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	56	197		cmp 4, __D0move, __signed_stack_001move, __D0move
+8	56	201	#line 56 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	57	201		brtst 4, __ASM_Label_668, __D0move
+8	56	204	#line 56 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	57	204		mov __D0move, __move_7qG2_power_7qG2_000
+8	57	206	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	58	206	#pragma macro 7
+8	58	206		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7688	229	#line 7688 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	57	229	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	57	229	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	58	229		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
+8	57	231	#line 57 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	8551	231	#line 8551 "NXCDefs.h"
+8	8552	231		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+8	8551	233	#line 8551 "NXCDefs.h"
+8	58	233	#line 58 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	59	233	#line 59 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	60	233	#pragma macro 7
+8	60	233		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7701	256	#line 7701 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	59	256	#line 59 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	60	256	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	61	256		jmp __ASM_Label_673
+8	60	258	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	61	258		mov __signed_stack_001move, __move_7qG2_direction_7qG2_000
+8	60	260	#line 60 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	61	260	#line 61 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	62	260		set __D0move, 3
+8	61	263	#line 61 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	62	263		cmp 4, __D0move, __signed_stack_001move, __D0move
+8	62	267	#line 62 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	63	267		brtst 4, __ASM_Label_676, __D0move
+8	62	270	#line 62 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	63	270		mov __D0move, __move_7qG2_power_7qG2_000
+8	63	272	#line 63 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	64	272	#pragma macro 10
+8	64	272		acquire __OnRevMutex
+8	64	273		neg __OnRev_Tmp, __D0move
+8	64	276		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	64	299		release __OnRevMutex
+8	7725	300	#line 7725 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	63	300	#line 63 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	63	300	#line 63 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	64	300		mov __Wait_7qG2_ms_7qG2_000_inline_move, __move_7qG2_delay_7qG2_000
+8	63	302	#line 63 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	8551	302	#line 8551 "NXCDefs.h"
+8	8552	302		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+8	8551	304	#line 8551 "NXCDefs.h"
+8	64	304	#line 64 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	65	304	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	66	304	#pragma macro 7
+8	66	304		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7738	327	#line 7738 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	65	327	#line 65 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	68	327	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	68	327	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	68	327	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	68	327	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	68	327	#line 68 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+8	69	327		subret __move_return
+9	69	0	#line 69 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	70	0		set __D0collectGems, 1
+9	70	3	#line 70 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	71	3		tst 5, __D0collectGems, __D0collectGems
+9	70	6	#line 70 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	71	6		brtst 4, __ASM_Label_682, __D0collectGems
+9	70	9	#line 70 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	71	9		set __D0collectGems, 100
+9	71	12	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	72	12	#pragma macro 7
+9	72	12		setout __constVal1, 2, __D0collectGems, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	7763	35	#line 7763 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	71	35	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	71	35	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	72	35		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 2000
+9	71	38	#line 71 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	8551	38	#line 8551 "NXCDefs.h"
+9	8552	38		waitv __Wait_7qG2_ms_7qG2_000_inline_collectGems
+9	8551	40	#line 8551 "NXCDefs.h"
+9	72	40	#line 72 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	72	40	#line 72 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	73	40		set __D0collectGems, 100
+9	73	43	#line 73 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	74	43	#pragma macro 10
+9	74	43		acquire __OnRevMutex
+9	74	44		neg __OnRev_Tmp, __D0collectGems
+9	74	47		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	74	70		release __OnRevMutex
+9	7780	71	#line 7780 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	73	71	#line 73 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	73	71	#line 73 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	74	71		set __Wait_7qG2_ms_7qG2_000_inline_collectGems, 500
+9	73	74	#line 73 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	8551	74	#line 8551 "NXCDefs.h"
+9	8552	74		waitv __Wait_7qG2_ms_7qG2_000_inline_collectGems
+9	8551	76	#line 8551 "NXCDefs.h"
+9	74	76	#line 74 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	77	76	#line 77 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	78	76		jmp __ASM_Label_681
+9	77	78	#line 77 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+9	78	78		exit -1, -1
+10	79	0	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	79	0	#line 79 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	81	0	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	81	0	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	81	0	#line 81 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	82	0		set __D0routine, 1
+10	83	3	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	3		tst 5, __D0routine, __D0routine
+10	83	6	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	6		brtst 4, __ASM_Label_698, __D0routine
+10	83	9	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	9	#pragma macro 26
+10	84	9		acquire __RLSBmutex3
+10	84	10		mov __RLSReadBuf3, __RLSBbufLSWrite1
+10	84	12		set __RLSBytesCount3, 1
+10	84	15		wait 15
+10	84	17		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+10	84	19		index __D0routine, __RLSReadBuf3, 65535
+10	84	23		release __RLSBmutex3
+10	7821	24	#line 7821 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	83	24	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	24		mov __signed_stack_001routine, __D0routine
+10	83	26	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	26		set __D0routine, 50
+10	83	29	#line 83 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	84	29		cmp 0, __D0routine, __signed_stack_001routine, __D0routine
+10	84	33	#line 84 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	85	33		brtst 4, __ASM_Label_703, __D0routine
+10	85	36	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	86	36		subcall Beep, __Beep_return
+10	85	38	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	85	38	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	86	38		set __move_7qG2_direction_7qG2_000, 1
+10	85	41	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	85	41	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	86	41		set __move_7qG2_delay_7qG2_000, 1000
+10	85	44	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	85	44	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	86	44		set __move_7qG2_power_7qG2_000, 50
+10	85	47	#line 85 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	86	47	#line 86 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	87	47		subcall move, __move_return
+10	86	49	#line 86 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	88	49	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	88	49	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	49		getin __signed_stack_001routine, __constVal0, 4
+10	88	53	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	88	53	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	53		set __D0routine, 1
+10	88	56	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	56		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+10	88	60	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	60		brtst 5, __ASM_Label_710, __D0routine
+10	88	63	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	63		getin __signed_stack_001routine, __constVal1, 4
+10	88	67	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	88	67	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	67		set __D0routine, 1
+10	88	70	#line 88 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	89	70		cmp 4, __D0routine, __signed_stack_001routine, __D0routine
+10	89	74	#line 89 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	90	74		brtst 4, __ASM_Label_713, __D0routine
+10	90	77	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	77		subcall Beep, __Beep_return
+10	90	79	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	90	79	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	79		set __move_7qG2_direction_7qG2_000, 3
+10	90	82	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	90	82	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	82		set __move_7qG2_delay_7qG2_000, 2000
+10	90	85	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	90	85	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	85		set __move_7qG2_power_7qG2_000, 50
+10	90	88	#line 90 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	88	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	92	88		subcall move, __move_return
+10	91	90	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	90	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	92	90		set __move_7qG2_direction_7qG2_000, 1
+10	91	93	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	93	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	92	93		set __move_7qG2_delay_7qG2_000, 500
+10	91	96	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	91	96	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	92	96		set __move_7qG2_power_7qG2_000, 50
+10	91	99	#line 91 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	92	99	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	93	99		subcall move, __move_return
+10	92	101	#line 92 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	94	101	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	94	101	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	95	101		getin __signed_stack_001routine, __constVal2, 4
+10	94	105	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	94	105	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	95	105		set __D0routine, 50
+10	94	108	#line 94 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	95	108		cmp 1, __D0routine, __signed_stack_001routine, __D0routine
+10	95	112	#line 95 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	96	112		brtst 4, __ASM_Label_728, __D0routine
+10	96	115	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	115		subcall Beep, __Beep_return
+10	96	117	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	96	117	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	117		set __move_7qG2_direction_7qG2_000, 3
+10	96	120	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	96	120	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	120		set __move_7qG2_delay_7qG2_000, 2000
+10	96	123	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	96	123	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	123		set __move_7qG2_power_7qG2_000, 50
+10	96	126	#line 96 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	126	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	98	126		subcall move, __move_return
+10	97	128	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	128	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	98	128		set __move_7qG2_direction_7qG2_000, 1
+10	97	131	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	131	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	98	131		set __move_7qG2_delay_7qG2_000, 1000
+10	97	134	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	97	134	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	98	134		set __move_7qG2_power_7qG2_000, 50
+10	97	137	#line 97 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	98	137	#line 98 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	99	137		subcall move, __move_return
+10	98	139	#line 98 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	106	139	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	106	139	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	107	139		set __move_7qG2_direction_7qG2_000, 2
+10	106	142	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	106	142	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	107	142		set __move_7qG2_delay_7qG2_000, 100
+10	106	145	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	106	145	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	107	145		set __move_7qG2_power_7qG2_000, 50
+10	106	148	#line 106 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	108	148	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	109	148		subcall move, __move_return
+10	108	150	#line 108 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	109	150	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	110	150		subcall displayLightSensorValue, __displayLightSensorValue_return
+10	109	152	#line 109 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	112	152	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	113	152		jmp __ASM_Label_697
+10	112	154	#line 112 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+10	113	154		exit -1, -1
+11	114	0	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	115	0		subcall InitBumpers, __InitBumpers_return
+11	114	2	#line 114 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	115	2	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	116	2		subcall InitUltraSonicSensor, __InitUltraSonicSensor_return
+11	115	4	#line 115 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	116	4	#line 116 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	117	4		subcall InitLightSensor, __InitLightSensor_return
+11	116	6	#line 116 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	118	6	#line 118 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+11	119	6		subret __initialize_return
+12	124	0	#line 124 "C:\Users\Germain\AppData\Local\Temp\temp.nxc"
+12	125	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	7	NXTDefs.h
+2	__ReadLSBytes3	20	NXTDefs.h
+3	InitLightSensor	105	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+4	InitUltraSonicSensor	153	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+5	InitBumpers	201	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+6	displayLightSensorValue	237	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+7	Beep	303	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+8	move	337	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+9	collectGems	666	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+10	routine	747	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+11	initialize	904	C:\Users\Germain\AppData\Local\Temp\temp.nxc
+12	__initialize_global_data	912	C:\Users\Germain\AppData\Local\Temp\temp.nxc

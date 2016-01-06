@@ -1,0 +1,122 @@
+#define LEFT 0
+#define RIGHT 1
+#define FORWARD 2
+#define BACKWARD 3
+#define NORMAL_POWER 50
+#define LONG_DELAY 2000
+#define NORMAL_DELAY 1000
+#define SHORT_DELAY 500
+#define MICRO_DELAY 100
+
+void InitLightSensor(){
+  SetSensorLight(IN_3);
+}
+
+void InitUltraSonicSensor(){
+  SetSensorLowspeed(IN_4);
+}
+
+void InitBumpers(){
+  SetSensorTouch(IN_1);
+  SetSensorTouch(IN_2);
+}
+
+void displayLightSensorValue(){
+  TextOut(10,LCD_LINE1,"LightSensor value : ");
+  TextOut(10,LCD_LINE2,NumToStr(Sensor(IN_3)));
+  Wait(100);
+}
+
+void displayUltraSonicSensorValue(){
+  TextOut(10,LCD_LINE1,"UltraSonic value : ");
+  TextOut(10,LCD_LINE2,NumToStr(SensorUS(IN_4)));
+  Wait(100);
+}
+
+void Beep(){
+  PlayTone(1000,1000);
+  Wait(1000);
+}
+
+void move(int direction, int delay, int power){
+     if(direction == LEFT){
+       OnFwd(OUT_C, power);
+       OnRev(OUT_A, power);
+       Wait(delay);
+       Off(OUT_AC);
+     }
+     else if(direction == RIGHT)
+     {
+       OnFwd(OUT_A, power);
+       OnRev(OUT_C, power);
+       Wait(delay);
+       Off(OUT_AC);
+     }
+     else if(direction == FORWARD)
+     {
+       OnFwd(OUT_AC, power);
+       Wait(delay);
+       Off(OUT_AC);
+     }
+     else if(direction == BACKWARD)
+     {
+       OnRev(OUT_AC, power);
+       Wait(delay);
+       Off(OUT_AC);
+     }
+}
+
+task collectGems(){
+  while(true){
+    OnFwd(OUT_B, 100);
+    Wait(2000);
+    OnRev(OUT_B, 100);
+    Wait(500);
+  }
+}
+
+task routine(){
+ int power = 50;
+ int waitingTime = 1000;
+ 
+ while(true){
+    //Check for obstacle
+    if(SensorUS(IN_4) < 50){
+      Beep();
+      move(RIGHT, NORMAL_DELAY, NORMAL_POWER);
+    }
+    //Bump into obstacle
+    if(SENSOR_1 == 1 || SENSOR_2 == 1){
+      Beep();
+      move(BACKWARD, LONG_DELAY, NORMAL_POWER);
+      move(RIGHT, SHORT_DELAY, NORMAL_POWER);
+    }
+    //Check for boundary
+    if(Sensor(IN_3) > 50){
+      Beep();
+      move(BACKWARD, LONG_DELAY, NORMAL_POWER);
+      move(RIGHT, NORMAL_DELAY, NORMAL_POWER);
+    }
+    //Check for black zone
+    /* if(Sensor(IN_3) > 50){
+      Beep();
+      move(BACKWARD, LONG_DELAY, NORMAL_POWER);
+      move(RIGHT, NORMAL_DELAY, NORMAL_POWER);
+    } */
+    //Move
+    move(FORWARD, MICRO_DELAY , NORMAL_POWER);
+    //Debug
+    displayLightSensorValue();
+  }
+}
+
+void initialize(){
+  InitBumpers();
+  InitUltraSonicSensor();
+  InitLightSensor();
+}
+
+task main(){
+  initialize();
+  Precedes(routine, collectGems);
+}
