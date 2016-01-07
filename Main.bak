@@ -88,20 +88,20 @@ task collectGems(){
 task routine(){
  while(true){
    //Check for black area
-   if(Sensor(IN_3) < BLACK){
+   /* if(Sensor(IN_3) < BLACK){
       Acquire(moveMutex);
       StartTask(Beep);
       Off(OUT_AC);
       move(FORWARD, 500 , FORWARD_SPEED);
       StopAllTasks();
       Release(moveMutex);
-   }
+   } */
    //Check for white boundary
    if(Sensor(IN_3) > WHITE){
       Acquire(moveMutex);
       StartTask(Beep);
       Off(OUT_AC);
-      move(randomDirection(), 1500, TURNING_SPEED);
+      move(RIGHT, 1500, TURNING_SPEED);
       Release(moveMutex);
     }
 
@@ -115,7 +115,7 @@ task routine(){
       Release(moveMutex);
     }
 
-    if(SENSOR_2 == 2){
+    if(SENSOR_2 == 1){
       Acquire(moveMutex);
       StartTask(Beep);
       Off(OUT_AC);
@@ -139,8 +139,10 @@ task routine(){
 task goForward(){
   while(true){
     Acquire(moveMutex);
+    Wait(100);
     Release(moveMutex);
     move(FORWARD, 1000 , FORWARD_SPEED);
+
   }
 }
 
@@ -162,5 +164,5 @@ void initSensors(){
 
 task main(){
   initSensors();
-  Precedes(playPacmanBeginning, routine, collectGems, goForward);
+  Precedes(routine, collectGems, goForward);
 }
