@@ -1,26 +1,26 @@
-#define LEFT 0
+                                                          #define LEFT 0
 #define RIGHT 1
 #define FORWARD 2
 #define BACKWARD 3
 #define SPEED 100
 
 #define FORWARD_SPEED 100
-#define BACKWARD_SPEED 100
-#define TURNING_SPEED 100
+#define BACKWARD_SPEED 70
+#define TURNING_SPEED 70
 
 #define COLLECTOR_FWD_SPEED 100
 #define COLLECTOR_REV_SPEED 50
 
-#define WHITE 40
-#define BLACK 27
-
-#define END_TIME 120
+#define WHITE 35
+#define BLACK 25
 
 #define WATCHING_DISTANCE 40
 
 bool end = false;
 int elapsedTime = 0;
 mutex moveMutex;
+mutex beepMutex;
+bool doBeep=false;
 
 void InitLightSensor(){
   SetSensorLight(IN_3);
@@ -65,13 +65,13 @@ void specialBeep(){
 
 void move(int direction, int delay, int power){
      if(direction == LEFT){
-       OnFwd(OUT_A, power);
-       OnRev(OUT_C, power);
+       OnFwd(OUT_C, power);
+       OnRev(OUT_A, power);
      }
      else if(direction == RIGHT)
      {
-       OnFwd(OUT_C, power);
-       OnRev(OUT_A, power);
+       OnFwd(OUT_A, power);
+       OnRev(OUT_C, power);
      }
      else if(direction == FORWARD)
      {
@@ -116,15 +116,19 @@ task routine(){
     {
       Acquire(moveMutex);
       StopRobot();
-      Beep();
-      move(randomDirection(), 1500, TURNING_SPEED);
+      Acquire(beepMutex);
+      doBeep=true;
+      Release(beepMutex);
+      move(randomDirection(), 1000, TURNING_SPEED);
       Release(moveMutex);
     }
     //Bump into obstacle
     if(SENSOR_1 == 1){
       Acquire(moveMutex);
       StopRobot();
-      Beep();
+      Acquire(beepMutex);
+      doBeep=true;
+      Release(beepMutex);
       move(BACKWARD, 1000, BACKWARD_SPEED);
       move(RIGHT, 1000, TURNING_SPEED);
       Release(moveMutex);
@@ -133,7 +137,9 @@ task routine(){
     if(SENSOR_2 == 1){
       Acquire(moveMutex);
       StopRobot();
-      Beep();
+      Acquire(beepMutex);
+      doBeep=true;
+      Release(beepMutex);
       move(BACKWARD, 1000, BACKWARD_SPEED);
       move(LEFT, 1000, TURNING_SPEED);
       Release(moveMutex);
@@ -142,13 +148,15 @@ task routine(){
     if(Sensor(IN_3) > WHITE){
       Acquire(moveMutex);
       StopRobot();
-      Beep();
+      Acquire(beepMutex);
+      doBeep=true;
+      Release(beepMutex);
       move(BACKWARD, 1000, BACKWARD_SPEED);
       move(RIGHT, 2000, SPEED);
       Release(moveMutex);
     }
     //Check for black zone
-    if(Sensor(IN_3) < BLACK && elapsedTime > END_TIME){
+    if(Sensor(IN_3) < BLACK && elapsedTime > 120){
       Acquire(moveMutex);
       StopRobot();
       move(FORWARD, 500 , FORWARD_SPEED);
@@ -178,14 +186,28 @@ task displayTime(){
 }
 
 void initialize(){
-  PlayFileEx("pacman_beginnin.rso",7,FALSE);
-  Wait(5000);
   InitBumpers();
   InitUltraSonicSensor();
   InitLightSensor();
 }
 
+task music (){
+  PlayFileEx("pacman_beginnin.rso",7,FALSE);
+  Wait(5000);
+  while(!end)
+  {
+     Acquire(beepMutex);
+     if (doBeep)
+     {
+          doBeep=false;
+          Beep();
+     }
+     Release(beepMutex);
+     Wait(500);
+  }
+}
+
 task main(){
   initialize();
-  Precedes(routine, collectGems, goForward, displayTime);
+  Precedes(music, routine, collectGems, goForward);
 }

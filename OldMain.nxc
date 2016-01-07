@@ -11,15 +11,15 @@
 #define COLLECTOR_FWD_SPEED 100
 #define COLLECTOR_REV_SPEED 50
 
-#define WHITE 40
-#define BLACK 27
-
-#define END_TIME 120
+#define WHITE 45
+#define BLACK 25
 
 #define WATCHING_DISTANCE 40
 
 bool end = false;
-int elapsedTime = 0;
+int time = 0;
+int nbHit = 0;
+int lastMove;
 mutex moveMutex;
 
 void InitLightSensor(){
@@ -65,13 +65,13 @@ void specialBeep(){
 
 void move(int direction, int delay, int power){
      if(direction == LEFT){
-       OnFwd(OUT_A, power);
-       OnRev(OUT_C, power);
+       OnFwd(OUT_C, power);
+       OnRev(OUT_A, power);
      }
      else if(direction == RIGHT)
      {
-       OnFwd(OUT_C, power);
-       OnRev(OUT_A, power);
+       OnFwd(OUT_A, power);
+       OnRev(OUT_C, power);
      }
      else if(direction == FORWARD)
      {
@@ -115,27 +115,20 @@ task routine(){
     if(SensorUS(IN_4) < WATCHING_DISTANCE)
     {
       Acquire(moveMutex);
+      nbHit = 0;
       StopRobot();
       Beep();
-      move(randomDirection(), 1500, TURNING_SPEED);
+      move(randomDirection(), 1000, TURNING_SPEED);
       Release(moveMutex);
     }
     //Bump into obstacle
-    if(SENSOR_1 == 1){
+    if(SENSOR_1 == 1 || SENSOR_2 == 1){
       Acquire(moveMutex);
+      nbHit = 0;
       StopRobot();
       Beep();
       move(BACKWARD, 1000, BACKWARD_SPEED);
-      move(RIGHT, 1000, TURNING_SPEED);
-      Release(moveMutex);
-    }
-
-    if(SENSOR_2 == 1){
-      Acquire(moveMutex);
-      StopRobot();
-      Beep();
-      move(BACKWARD, 1000, BACKWARD_SPEED);
-      move(LEFT, 1000, TURNING_SPEED);
+      move(randomDirection(), 1000, TURNING_SPEED);
       Release(moveMutex);
     }
     //Check for boundary
@@ -144,17 +137,21 @@ task routine(){
       StopRobot();
       Beep();
       move(BACKWARD, 1000, BACKWARD_SPEED);
-      move(RIGHT, 2000, SPEED);
+      if(nbHit == 0){
+        lastMove = randomDirection();
+        nbHit++;
+      }
+      move(lastMove, 2000, SPEED);
       Release(moveMutex);
     }
     //Check for black zone
-    if(Sensor(IN_3) < BLACK && elapsedTime > END_TIME){
+    /* if(Sensor(IN_3) < BLACK){
       Acquire(moveMutex);
       StopRobot();
       move(FORWARD, 500 , FORWARD_SPEED);
       finishProgram();
       Release(moveMutex);
-    }
+    } */
   }
 }
 
@@ -168,15 +165,6 @@ task goForward(){
   }
 }
 
-task displayTime(){
-  while(!end){
-    TextOut(10,LCD_LINE1,"Time : ");
-    TextOut(10,LCD_LINE2,NumToStr(elapsedTime));
-    Wait(1000);
-    elapsedTime++;
-  }
-}
-
 void initialize(){
   PlayFileEx("pacman_beginnin.rso",7,FALSE);
   Wait(5000);
@@ -187,5 +175,5 @@ void initialize(){
 
 task main(){
   initialize();
-  Precedes(routine, collectGems, goForward, displayTime);
+  Precedes(routine, collectGems, goForward);
 }
